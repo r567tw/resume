@@ -1,0 +1,18 @@
+mixin link(url,name)
+  li.bold
+    a.waves-effect.waves-light(href="#{url}")
+      |#{name}
+
+ul#nav-mobile.side-nav.hide-on-small-only(style='transform:translateX(0%);')
+  li
+    .user-view
+      .background
+        img(src='https://avatars2.githubusercontent.com/u/6388169?v=4&u=140a990ed2d327cafabf57f6ec74ae421305a371&s=400')
+      a(href='#!user')
+        img.circle(src='http://www.sce.ntnu.edu.tw/home/src/img/department/20160719105304.jpg')
+      a(href='#!name')
+        span.white-text.name 方偉君
+      a(href='#!email')
+        span.white-text.email r567tw@gmail.com  
+  each item,i in menu.list
+    +link(item.url,item.name)

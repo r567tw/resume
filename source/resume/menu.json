@@ -5,12 +5,16 @@
             "url":"#basic"
         },
         {
-            "name": "技能與專長",
+            "name":"技能與專長",
             "url": "#skills"
         },
         {
-            "name": "作品",
+            "name":"作品",
             "url": "#works"
+        },
+        {
+            "name":"連絡我",
+            "url": "#contact"
         }
     ]
 }

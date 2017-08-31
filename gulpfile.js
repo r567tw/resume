@@ -15,7 +15,7 @@ var env ={
 var options = minimist(process.argv.slice(2),env)
 
 gulp.task('jade',function(){
-    gulp.src('./source/**/*.jade')
+    gulp.src('./source/*.jade')
         .pipe(data(function () {
             var resume = require('./source/resume/resume.json');
             var menu=require('./source/resume/menu.json');
@@ -23,6 +23,7 @@ gulp.task('jade',function(){
                 'resume':resume,
                 'menu':menu
             };
+            console.log(source);
             return source;
         }))
         .pipe(jade({
@@ -36,6 +37,7 @@ gulp.task('scss', function () {
     return gulp.src('./source/scss/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./public/css'))
+        .pipe(browserSync.stream())
 });
 
 gulp.task('browser-sync',function(){
@@ -48,6 +50,7 @@ gulp.task('browser-sync',function(){
 
 gulp.task('watch', function () {
     gulp.watch('./source/**/*.jade',['jade']);
+    gulp.watch('./source/**/*.scss', ['scss']);
 });
 
 gulp.task('deploy', function () {

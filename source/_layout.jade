@@ -7,8 +7,13 @@ html(lang="en")
         title 我的履歷表
         link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
         link(rel='stylesheet', href='css/all.css')
-        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
-        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
-    body(data-spy="scroll" data-target=".navbar" data-offset="50")
-        block nav
-        block content
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css')
+        script(src='https://code.jquery.com/jquery-3.2.1.min.js')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js')
+    body
+        .container
+            .row
+                .col.s2.m2.12
+                    block nav
+                .col.s10.m10.12
+                    block content
