@@ -1,0 +1,16 @@
+{
+    "list":[
+        {
+            "name":"基本資訊",
+            "url":"#basic"
+        },
+        {
+            "name": "技能與專長",
+            "url": "#skills"
+        },
+        {
+            "name": "作品",
+            "url": "#works"
+        }
+    ]
+}
