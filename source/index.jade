@@ -1,14 +1,14 @@
-extend _layout.jade
+extend partial/_layout.jade
 
 block nav
-    include partial/_navbar.jade
+    include partial/_navbar.jade    
 
 block content
     #basic.section
-        h1 1
+        h1 #{menu.list[0].name}
     #skills.section
-        h1 2 
+        h1 #{menu.list[1].name} 
     #works.section
-        h1  3
+        h1  #{menu.list[2].name}
     #contact.section
-        h1 4
+        h1  #{menu.list[3].name}

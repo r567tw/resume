@@ -3,7 +3,11 @@ mixin link(url,name)
     a.waves-effect.waves-light(href="#{url}")
       |#{name}
 
-ul#nav-mobile.side-nav.hide-on-small-only(style='transform:translateX(0%);')
+nav.top-nav.fixed
+  a.button-collapse.hide-on-large-only.waves-effect.waves-light(href='#', data-activates='nav-mobile')
+    i.material-icons
+      |menu
+ul#nav-mobile.side-nav.fixed.hide-on-small-only(style='transform:translateX(0%);')
   li
     .user-view
       .background

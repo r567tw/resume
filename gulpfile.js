@@ -6,6 +6,8 @@ var gulpif= require('gulp-if');
 var data=require('gulp-data');
 var ghPages = require('gulp-gh-pages');
 var sass = require('gulp-sass');
+var babel = require('gulp-babel');
+
 
 var env ={
     string:'env',
@@ -58,4 +60,14 @@ gulp.task('deploy', function () {
         .pipe(ghPages());
 });
 
-gulp.task('default', ['jade','watch','scss','browser-sync']);
+gulp.task('babel', () =>
+    gulp.src('./source/js/**/*.js')
+        .pipe(babel({
+            presets: ['env']
+        }))
+        .pipe(gulp.dest('./public/js'))
+        .pipe(browserSync.stream())
+
+);
+
+gulp.task('default', ['jade','watch','scss','babel','browser-sync']);
