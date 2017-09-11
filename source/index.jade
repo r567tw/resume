@@ -6,7 +6,31 @@ block nav
 block content
     #basic.section
         h1 #{menu.list[0].name}
+        div 
+            h3 姓名：#{resume.data[0].content.name}(#{resume.data[0].content.nickname})
+            p
+                a(href="#{resume.data[0].content.website}") 我的網站
+            p
+                a(href="#{resume.data[0].content.github}") 我的GitHub
+            div
+                |#{resume.data[0].content.description}"
+
+
     #skills.section
-        h1 #{menu.list[1].name} 
+        h1 #{menu.list[1].name}
+        div
+            each skill,i in resume.data[1].skills
+                p
+                    |#{skill.name}
+                    |#{skill.detail}
+                    |#{skill.star}
+
     #works.section
         h1  #{menu.list[2].name}
+        div
+            each work,i in resume.data[2].works
+                p
+                    |#{work.name}
+                    |#{work.uses}
+                    |#{work.url}
+                    |#{work.description}

@@ -1,7 +1,6 @@
 {
     "data":[
         {
-            //基本資訊
             "id":"basic",
             "content":
             {
@@ -14,10 +13,8 @@
             }
         },
         {
-            //技能與專長
             "id": "skills",
             "skills": [
-                //滿星數:10
                 {
                     "name":"php(laravel)",
                     "detail":"可使用laravel 寫一個CRUD的程式，知道怎麼使用middleware和一些小小的進階用法等",
@@ -41,7 +38,6 @@
             ]
         },
         {
-            //作品
             "id": "works",
             "works": [
                 {
@@ -84,8 +80,7 @@
                     ],
                     "url": "https://github.com/r567tw/Fundin",
                     "description": "我以前的畢業專題，是做有關於投資管理決策類的，用php 硬幹邏輯及用echart render 頁面"
-                },                                
-
+                }                          
             ]
         }    
     ]
