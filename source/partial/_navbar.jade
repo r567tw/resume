@@ -1,22 +1,13 @@
 mixin link(url,name)
-  li.bold
-    a.waves-effect.waves-light(href="#{url}")
-      |#{name}
+  li.nav-item
+    a.nav-link(href="#{url}")|#{name}
 
-nav.top-nav.fixed
-  a.button-collapse.hide-on-large-only.waves-effect.waves-light(href='#', data-activates='nav-mobile')
-    i.material-icons
-      |menu
-ul#nav-mobile.side-nav.fixed.hide-on-small-only(style='transform:translateX(0%);')
-  li
-    .user-view
-      .background
-        img(src='https://avatars2.githubusercontent.com/u/6388169?v=4&u=140a990ed2d327cafabf57f6ec74ae421305a371&s=400')
-      a(href='#!user')
-        img.circle(src='http://www.sce.ntnu.edu.tw/home/src/img/department/20160719105304.jpg')
-      a(href='#!name')
-        span.white-text.name 方偉君
-      a(href='#!email')
-        span.white-text.email r567tw@gmail.com  
-  each item,i in menu.list
-    +link(item.url,item.name)
+
+nav.navbar.fixed-top.navbar-toggleable-md.navbar-inverse.bg-inverse
+  button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  a.navbar-brand(href='#') 履歷表
+  #navbarSupportedContent.collapse.navbar-collapse
+    ul.navbar-nav.mr-auto#navbar-example
+      each item,i in menu.list
+        +link(item.url,item.name)
