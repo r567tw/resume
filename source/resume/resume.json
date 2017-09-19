@@ -1,13 +1,12 @@
 {
     "data":[
         {
-            "id":"basic",
+            "id":"about",
             "content":
             {
                 "name":"方偉君",
-                "account":"r567tw",
-                "nickname":"方小君",
                 "website":"https://r567tw.tw",
+                "interesteds":["旅遊","閱讀","看棒球"],
                 "github":"https://github.com/r567tw",
                 "description":"Hi ，我是偉君，是位台東人，享受用程式解決問題的過程、也想要寫出美妙的程式，希望可以越來越強，用程式及信仰改變世界!"
             }
@@ -16,22 +15,22 @@
             "id": "skills",
             "skills": [
                 {
-                    "name":"php(laravel)",
+                    "name":"PHP(Laravel)",
                     "detail":"可使用laravel 寫一個CRUD的程式，知道怎麼使用middleware和一些小小的進階用法等",
                     "star":8
                 },
                 {
-                    "name": "javascript(vue.js 、jquery、gulp)",
+                    "name": "Javascript(Vue.js 、Jquery、Gulp)",
                     "detail": "對vue.js 比較熟(尤其與laravel結合)，jquery 和gulp 有特別學習和玩過、至於node.js 略懂而已",
                     "star": 5
                 },
                 {
-                    "name": "python(django)",
+                    "name": "Python(Django)",
                     "detail": "非常喜歡python 簡潔程式碼的特性! 是平常做為「玩具」的程式語言，會寫些簡單的爬蟲和圖形化介面",
                     "star": 7
                 },
                 {
-                    "name": "ruby (ROR)",
+                    "name": "Ruby (ROR)",
                     "detail": "正在學習中.....",
                     "star": 3
                 }
@@ -81,6 +80,17 @@
                     "url": "https://github.com/r567tw/Fundin",
                     "description": "我以前的畢業專題，是做有關於投資管理決策類的，用php 硬幹邏輯及用echart render 頁面"
                 }                          
+            ]
+        },
+        {
+            "id": "experiences",
+            "experiences": [
+                {
+                    "name": "師大進修推廣學院-資訊組專任助理",
+                    "time": "2016.07-2017.12",
+                    "uses": ["php","javascript","jquery","mysql","laravel","vue.js"],
+                    "description":"在師大工作時，使用laravel 和vue.js 做的第一個正式專案，還有很大的進步空間"
+                }           
             ]
         }    
     ]

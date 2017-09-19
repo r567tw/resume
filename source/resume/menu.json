@@ -2,7 +2,7 @@
     "list":[
         {
             "name":"基本資訊",
-            "url":"#basic"
+            "url":"#about"
         },
         {
             "name":"技能與專長",
@@ -11,6 +11,10 @@
         {
             "name":"作品",
             "url": "#works"
+        },
+        {
+            "name":"經歷",
+            "url": "#experiences"
         }
     ]
 }

@@ -2,32 +2,92 @@ extend partial/_layout.jade
 block nav
     include partial/_navbar.jade    
 block content
-    #basic.section
-        h1 #{menu.list[0].name}
-        div 
-            h3 姓名：#{resume.data[0].content.name}(#{resume.data[0].content.nickname})
+    p(id="about")
+        .jumbotron
+            h1
+                |#{menu.list[0].name}
+            hr(class="my-4")
+            .card
+                .card-block 
+                    h3(class="card-title") 姓名：#{resume.data[0].content.name}
+                    p(class="card-text")
+                        each insterested,i in resume.data[0].content.interesteds
+                            h5(class="badge badge-lg badge-default")
+                                |#{insterested}
+                    p(class="card-text")
+                        |#{resume.data[0].content.description}
             p
-                a(href="#{resume.data[0].content.website}") 我的網站
-            p
-                a(href="#{resume.data[0].content.github}") 我的GitHub
+            .text-right
+                a(class="btn btn-success btn-blank",href="#{resume.data[0].content.website}")
+                    i(class="fa fa-home",aria-hidden="true")
+                    |歡迎來我的網站逛逛
+                
+                a(class="btn btn-success btn-blank",href="#{resume.data[0].content.github}")
+                    i(class="fa fa-github",aria-hidden="true")
+                    |GitHub
+            .text-center
+                a(class="btn btn-lg btn-primary",href="#skills")
+                    |More
+
+    p(id="skills")
+        .jumbotron
+            h1
+                |#{menu.list[1].name}
+            hr(class="my-4")
             div
-                |#{resume.data[0].content.description}"
+                each skill,i in resume.data[1].skills
+                    .card
+                        .card-block
+                            h4(class="card-title")|#{skill.name}
+                            p(class="card-text")|#{skill.detail}
+                            p 
+                                each _,i in Array(10)
+                                    if i < skill.star
+                                        i(class="fa fa-star",aria-hidden="true")
+                                    else
+                                        i(class="fa fa-star-o",aria-hidden="true")
+            .text-center
+                a(class="btn btn-lg btn-primary",href="#works")
+                    |More
+    p(id="works")
+        .jumbotron
+            h1
+                |#{menu.list[2].name}
+            hr(class="my-4")
+            div
+                each work,i in resume.data[2].works
+                    .card
+                        .card-block
+                            h3(class="card-title")|#{work.name}
+                            p(class="card-text")
+                                |#{work.description}
+                                .text-right
+                                    a(class="btn btn-md btn-info" href="#{work.url}")
+                                        i(class="fa fa-link" aria-hidden="true")
+                                        |連結
+                            .text-left
+                                each use,i in work.uses
+                                        div(class="badge badge-lg badge-default")
+                                            |#{use}
+            .text-center
+                a(class="btn btn-lg btn-primary",href="#experiences")
+                    |More
 
-    #skills.section
-        h1 #{menu.list[1].name}
-        div
-            each skill,i in resume.data[1].skills
-                p
-                    |#{skill.name}
-                    |#{skill.detail}
-                    |#{skill.star}
-
-    #works.section
-        h1  #{menu.list[2].name}
-        div
-            each work,i in resume.data[2].works
-                p
-                    |#{work.name}
-                    |#{work.uses}
-                    |#{work.url}
-                    |#{work.description}
+        p(id="experiences")
+        .jumbotron
+            h1
+                |#{menu.list[3].name}
+            hr(class="my-4")
+            div
+                each experience,i in resume.data[3].experiences
+                    .card
+                        .card-block
+                            h3(class="card-title")|#{experience.name}
+                            p(class="card-text")
+                                |#{experience.description}
+                                .text-left
+                                   |任職期間：#{experience.time} 
+                            .text-left
+                                each use,i in experience.uses
+                                        div(class="badge badge-lg badge-default")
+                                            |#{use} 
