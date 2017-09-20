@@ -5,9 +5,24 @@
             "content":
             {
                 "name":"方偉君",
-                "website":"https://r567tw.tw",
                 "interesteds":["旅遊","閱讀","看棒球"],
-                "github":"https://github.com/r567tw",
+                "socials":[
+                    {
+                        "text":"歡迎來我的網站逛逛",
+                        "link":"https://r567tw.tw",
+                        "icon":"fa fa-home"
+                    },
+                    {
+                        "text":"GitHub",
+                        "link":"https://github.com/r567tw",
+                        "icon":"fa fa-github"
+                    },
+                    {
+                        "text":"Facebook",
+                        "link":"https://www.facebook.com/FangJRs",
+                        "icon":"fa fa-facebook"
+                    }
+                ],
                 "description":"Hi ，我是偉君，是位台東人，享受用程式解決問題的過程、也想要寫出美妙的程式，希望可以越來越強，用程式及信仰改變世界!"
             }
         },
@@ -30,8 +45,8 @@
                     "star": 7
                 },
                 {
-                    "name": "Ruby (ROR)",
-                    "detail": "正在學習中.....",
+                    "name": "Ruby (Ruby on Rails)",
+                    "detail": "正在學習中.....，明白使用scaffold 指令快速生成網站",
                     "star": 3
                 }
             ]
@@ -41,44 +56,54 @@
             "works": [
                 {
                     "name": "原住民報名網站(2017)",
-                    "uses": ["laravel","vue.js"],
-                    "url": "http://apc.sce.ntnu.edu.tw/abst/",
-                    "description":"在師大工作時，使用laravel 和vue.js 做的第一個正式專案，還有很大的進步空間"
-                },
-                {
-                    "name": "正妹牆(2017)",
                     "uses": [
-                        "vue.js"
+                        "Laravel",
+                        "Boostrap",
+                        "Vue.js"
                     ],
-                    "url": "https://r567tw.github.io/beautify/",
-                    "description": "使用 vue.js 練習的專案，使用乾貨集中營的api"
+                    "url": "http://apc.sce.ntnu.edu.tw/abst/",
+                    "description":"在師大工作時，使用laravel 和vue.js 做的第一個正式專案。操作多身分登入、Middleware、客製化驗證、ORM操作和RESTful URL"
                 },
                 {
                     "name": "JimmyFDesginer(2016-2017)",
                     "uses": [
                         "jquery",
-                        "wordpress",
-                        "native php"
+                        "Boostrap",
+                        "Wordpress",
+                        "Native php"
                     ],
-                    "url": "https://r567tw.tw/",
-                    "description": "自己看著別人的教學手冊實做wordpress 的佈景主題，套用在自己的部落格上"
+                    "url": "https://r567tw.tw/jimmyfdesigner/",
+                    "description": "自己看著別人的教學手冊實做wordpress佈景主題，目前較為得意的作品，並套用在自己的部落格上"
                 },
                 {
                     "name": "office(2017)",
                     "uses": [
-                        "python"
+                        "Python",
+                        "Selenium",
+                        "Tkinter"
                     ],
                     "url": "https://github.com/r567tw/office",
-                    "description": "工作時常用到一些東西，剛好在學python 所以看著書及自己構想隨意打造一些自己想要的東西"
+                    "description": "工作時常用到一些東西，例如產生身分證、google map 截圖或移動檔案等，所以看著書及自己構想利用python隨意打造一些自己想要的東西"
+                },
+                {
+                    "name": "正妹牆(2017)",
+                    "uses": [
+                        "Vue.js",
+                        "Webpack",
+                        "Boostrap"
+                    ],
+                    "url": "https://r567tw.github.io/beautify/",
+                    "description": "使用 vue.js 練習的專案，使用乾貨集中營的api"
                 },
                 {
                     "name": "畢業專題(2016)",
                     "uses": [
-                        "native php",
-                        "echart"
+                        "Native php",
+                        "Echart",
+                        "Boostrap"
                     ],
                     "url": "https://github.com/r567tw/Fundin",
-                    "description": "我以前的畢業專題，是做有關於投資管理決策類的，用php 硬幹邏輯及用echart render 頁面"
+                    "description": "我以前的畢業專題，是做有關於投資管理決策類的，用php 硬幹邏輯及用echart 渲染頁面"
                 }                          
             ]
         },
@@ -89,7 +114,7 @@
                     "name": "師大進修推廣學院-資訊組專任助理",
                     "time": "2016.07-2017.12",
                     "uses": ["php","javascript","jquery","mysql","laravel","vue.js"],
-                    "description":"在師大工作時，使用laravel 和vue.js 做的第一個正式專案，還有很大的進步空間"
+                    "description":"維護現有專案，負責原住民語言認證、幼幼客語闖通關、檢集表及閱卷系統等，以Laravel 翻新原本Native php 的原住民認證網站、還有開發教學務系統"
                 }           
             ]
         }    

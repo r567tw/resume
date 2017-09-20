@@ -3,7 +3,7 @@ block nav
     include partial/_navbar.jade    
 block content
     p(id="about")
-        .jumbotron
+        .jumbotron.wow.fadeIn
             h1
                 |#{menu.list[0].name}
             hr(class="my-4")
@@ -18,19 +18,17 @@ block content
                         |#{resume.data[0].content.description}
             p
             .text-right
-                a(class="btn btn-success btn-blank",href="#{resume.data[0].content.website}")
-                    i(class="fa fa-home",aria-hidden="true")
-                    |歡迎來我的網站逛逛
-                
-                a(class="btn btn-success btn-blank",href="#{resume.data[0].content.github}")
-                    i(class="fa fa-github",aria-hidden="true")
-                    |GitHub
+                each social,i in resume.data[0].content.socials
+                    a(class="btn btn-success btn-blank",href="#{social.link}")
+                        i(class="#{social.icon}",aria-hidden="true")
+                        |&nbsp#{social.text}
             .text-center
-                a(class="btn btn-lg btn-primary",href="#skills")
-                    |More
+                a(class="btn btn-lg btn-primary btn-more",href="#skills",data-id="skills")
+                    i(class="fa fa fa-arrow-down animated infinite fadeIn",aria-hidden="true")
 
+    
     p(id="skills")
-        .jumbotron
+        .jumbotron.wow.fadeIn
             h1
                 |#{menu.list[1].name}
             hr(class="my-4")
@@ -47,10 +45,11 @@ block content
                                     else
                                         i(class="fa fa-star-o",aria-hidden="true")
             .text-center
-                a(class="btn btn-lg btn-primary",href="#works")
-                    |More
+                a(class="btn btn-lg btn-primary btn-more",href="#works",data-id="works")
+                    i(class="fa fa fa-arrow-down animated infinite fadeIn",aria-hidden="true")
+    
     p(id="works")
-        .jumbotron
+        .jumbotron.wow.fadeIn
             h1
                 |#{menu.list[2].name}
             hr(class="my-4")
@@ -70,11 +69,11 @@ block content
                                         div(class="badge badge-lg badge-default")
                                             |#{use}
             .text-center
-                a(class="btn btn-lg btn-primary",href="#experiences")
-                    |More
+                a(class="btn btn-lg btn-primary btn-more",href="#experiences",data-id="experiences")
+                    i(class="fa fa fa-arrow-down animated infinite fadeIn",aria-hidden="true")
 
         p(id="experiences")
-        .jumbotron
+        .jumbotron.wow.fadeIn
             h1
                 |#{menu.list[3].name}
             hr(class="my-4")
@@ -84,10 +83,14 @@ block content
                         .card-block
                             h3(class="card-title")|#{experience.name}
                             p(class="card-text")
+                                u
+                                    |任職期間：#{experience.time} 
+                            p(class="card-text")
                                 |#{experience.description}
-                                .text-left
-                                   |任職期間：#{experience.time} 
                             .text-left
                                 each use,i in experience.uses
                                         div(class="badge badge-lg badge-default")
                                             |#{use} 
+        
+        .top
+            i(class="fa fa-arrow-up animated infinite bounceInUp",aria-hidden="true")

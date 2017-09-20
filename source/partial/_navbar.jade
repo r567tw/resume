@@ -1,12 +1,12 @@
 mixin link(url,name)
   li.nav-item
-    a.nav-link(href="#{url}")|#{name}
+    a.nav-link(href="#{url}",data-id="#{url}")|#{name}
 
 
 nav.navbar.fixed-top.navbar-toggleable-md.navbar-inverse.bg-inverse
   button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
     span.navbar-toggler-icon
-  a.navbar-brand(href='#') 履歷表
+  a.navbar-brand(href='#') #{menu.brand.name}
   #navbarSupportedContent.collapse.navbar-collapse
     ul.navbar-nav.mr-auto#navbar-example
       each item,i in menu.list

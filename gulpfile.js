@@ -50,10 +50,7 @@ gulp.task('browser-sync',function(){
     })
 })
 
-gulp.task('watch', function () {
-    gulp.watch('./source/**/*.jade',['jade']);
-    gulp.watch('./source/**/*.scss', ['scss']);
-});
+
 
 gulp.task('deploy', function () {
     return gulp.src('./public/**/*')
@@ -69,5 +66,11 @@ gulp.task('babel', () =>
         .pipe(browserSync.stream())
 
 );
+
+gulp.task('watch', function () {
+    gulp.watch('./source/**/*.jade',['jade']);
+    gulp.watch('./source/**/*.scss', ['scss']);
+    gulp.watch('./source/**/*.js', ['babel']);
+});
 
 gulp.task('default', ['jade','watch','scss','babel','browser-sync']);
