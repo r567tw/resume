@@ -23,14 +23,14 @@
     "jquery": "^3.2.1"
   },
   "overrides": {
-    "boostrap": {
-      "main":["dist/css/boostrap.css","dist/js/boostrap.js"]
+    "bootstrap": {
+      "main":["dist/css/bootstrap.css","dist/js/bootstrap.js"]
     },
     "animate.css": {
       "main":"animate.min.css"
     },
     "font-awesome": {
-      "main":"css/font-awesome.min.css"
+      "main":["css/font-awesome.css","fonts/fontawesome-webfont.*"]
     },
     "jquery": {
       "main":"dist/jquery.js"

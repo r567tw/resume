@@ -9,8 +9,8 @@ var sass = require('gulp-sass');
 var mainBowerFiles=require('main-bower-files')
 var concat=require('gulp-concat');
 var uglify = require('gulp-uglify'); //壓縮
-var order = require('gulp-order'); //壓縮
-
+var order = require('gulp-order'); //排序
+var clean= require('gulp-clean');
 
 var env ={
     string:'env',
@@ -28,7 +28,6 @@ gulp.task('jade',function(){
                 'resume':resume,
                 'menu':menu
             };
-            console.log(source);
             return source;
         }))
         .pipe(jade({
@@ -41,7 +40,7 @@ gulp.task('jade',function(){
 gulp.task('scss', function () {
     return gulp.src('./source/scss/**/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./public/css'))
+        .pipe(gulp.dest('./.tmp/css'))
         .pipe(browserSync.stream())
 });
 
@@ -86,9 +85,27 @@ gulp.task('vendorJs',['bower'],function(){
 });
 
 gulp.task('vendorCSS',['bower'],function(){
-    return gulp.src('./.tmp/vendors/**/*.css')
-    .pipe(concat('vendor.css'))                              
+    return gulp.src(['./.tmp/vendors/**/*.css','./.tmp/css/**/*.css'])
+    .pipe(concat('all.css'))                              
     .pipe(gulp.dest('./public/css'))
+    .pipe(browserSync.stream())    
+});
+
+gulp.task('vendorFONT',['bower'],function(){
+    return gulp.src("./.tmp/vendors/fontawesome-webfont.*")
+                .pipe(gulp.dest('./public/fonts'))
+});
+
+//刪除資料夾
+gulp.task('clean',function(){
+    return gulp.src(['./.tmp','./public'],{read:false})
+        .pipe(clean())
+});
+
+gulp.task('cleantmp',['vendorJs','vendorCSS','vendorFONT'],function(){
+    return gulp.src(['./.tmp'],{read:false})
+        .pipe(clean())
+        .pipe(browserSync.stream())
 });
 
 gulp.task('watch', function () {
@@ -97,4 +114,4 @@ gulp.task('watch', function () {
     gulp.watch('./source/**/*.js', ['babel']);
 });
 
-gulp.task('default', ['jade','watch','scss','vendorJs','vendorCSS','browser-sync']);
+gulp.task('default', ['jade','scss','vendorJs','vendorCSS','vendorFONT','cleantmp','watch','browser-sync']);

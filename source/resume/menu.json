@@ -1,7 +1,9 @@
 {
     "brand":{
-        "name":"Welocome! Jimmy Fang"
+        "name":"Hello! Jimmy"
     },
+    "github":"https://github.com/r567tw/resume",
+    "blog":"https://r567tw.tw/",
     "list":[
         {
             "name":"基本資訊",

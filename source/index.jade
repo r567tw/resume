@@ -17,7 +17,6 @@ block content
                     p(class="card-text")
                         |#{resume.data[0].content.description}
             p
-            .text-right
                 each social,i in resume.data[0].content.socials
                     a(class="btn btn-success btn-blank",href="#{social.link}")
                         i(class="#{social.icon}",aria-hidden="true")

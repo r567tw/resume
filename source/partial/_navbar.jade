@@ -11,3 +11,10 @@ nav.navbar.fixed-top.navbar-toggleable-md.navbar-inverse.bg-inverse
     ul.navbar-nav.mr-auto#navbar-example
       each item,i in menu.list
         +link(item.url,item.name)
+    ul.navbar-nav.text-right.hidden-md-down
+      li.nav-item
+        a.nav-link(href="#{menu.blog}")
+          i(class="fa fa-pencil",aria-hidden="true")
+      li.nav-item
+        a.nav-link(href="#{menu.github}")
+          i(class="fa fa-github",aria-hidden="true")
