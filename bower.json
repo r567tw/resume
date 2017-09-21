@@ -1,0 +1,45 @@
+{
+  "name": "resume",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "r567tw <r567tw@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/r567tw/resume",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "font-awesome": "fontawesome#^4.7.0",
+    "wow": "wow.js#^1.1.2",
+    "animate.css": "^3.5.2",
+    "jquery": "^3.2.1"
+  },
+  "overrides": {
+    "boostrap": {
+      "main":["dist/css/boostrap.css","dist/js/boostrap.js"]
+    },
+    "animate.css": {
+      "main":"animate.min.css"
+    },
+    "font-awesome": {
+      "main":"css/font-awesome.min.css"
+    },
+    "jquery": {
+      "main":"dist/jquery.js"
+    },
+    "tether": {
+      "main":"dist/js/tether.min.js"
+    },
+    "wow": {
+      "main":"dist/wow.js"
+    }
+  }
+}

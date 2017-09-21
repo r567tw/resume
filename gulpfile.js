@@ -7,6 +7,10 @@ var data=require('gulp-data');
 var ghPages = require('gulp-gh-pages');
 var sass = require('gulp-sass');
 var babel = require('gulp-babel');
+var mainBowerFiles=require('main-bower-files')
+var concat=require('gulp-concat');
+var uglify = require('gulp-uglify'); //壓縮
+var order = require('gulp-order'); //壓縮
 
 
 var env ={
@@ -64,8 +68,37 @@ gulp.task('babel', () =>
         }))
         .pipe(gulp.dest('./public/js'))
         .pipe(browserSync.stream())
-
 );
+
+//先講檔案載入暫時的資料夾
+gulp.task('bower', function () {
+    return gulp.src(mainBowerFiles())
+        .pipe(gulp.dest('./.tmp/vendors'))
+});
+
+//然後做出合併
+gulp.task('vendorJs',['bower'],function(){
+    return gulp.src('./.tmp/vendors/**/*.js')
+    .pipe(order([
+        'jquery.js',
+        'tether.min.js',
+        'bootstrap.js',
+        'wow.js'
+    ]))
+    .pipe(concat('vendor.js'))
+    .pipe(uglify({
+        compress:{
+            drop_console:true //把console.log 削掉
+        }
+    }))                                
+    .pipe(gulp.dest('./public/js'))
+});
+
+gulp.task('vendorCSS',['bower'],function(){
+    return gulp.src('./.tmp/vendors/**/*.css')
+    .pipe(concat('vendor.css'))                              
+    .pipe(gulp.dest('./public/css'))
+});
 
 gulp.task('watch', function () {
     gulp.watch('./source/**/*.jade',['jade']);
@@ -73,4 +106,4 @@ gulp.task('watch', function () {
     gulp.watch('./source/**/*.js', ['babel']);
 });
 
-gulp.task('default', ['jade','watch','scss','babel','browser-sync']);
+gulp.task('default', ['jade','watch','scss','babel','vendorJs','vendorCSS','browser-sync']);
