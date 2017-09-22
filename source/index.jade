@@ -9,7 +9,8 @@ block content
             hr(class="my-4")
             .card
                 .card-block 
-                    h3(class="card-title") 姓名：#{resume.data[0].content.name}
+                    h3(class="card-title") #{resume.data[0].content.name}
+                    p(class="card-text") #{resume.data[0].content.email}
                     p(class="card-text")
                         each insterested,i in resume.data[0].content.interesteds
                             h5(class="badge badge-lg badge-default")
