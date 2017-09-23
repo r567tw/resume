@@ -115,7 +115,7 @@
                     "name": "師大進修推廣學院-資訊組專任助理",
                     "time": "2016.07-2017.12",
                     "uses": ["php","javascript","jquery","mysql","laravel","vue.js"],
-                    "description":"維護現有專案，負責原住民語言認證、幼幼客語闖通關、檢集表及閱卷系統等，以Laravel 翻新原本Native php 的原住民認證網站、還有開發教學務系統"
+                    "description":"維護現有專案，負責原住民語言認證、幼幼客語闖通關、檢集表及閱卷系統等，以Laravel 翻新原本Native php 的原住民認證網站"
                 }           
             ]
         }    
