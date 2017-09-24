@@ -36,8 +36,3 @@ $('.top').click(function(){
 })
 
 new WOW().init();
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments)};
-gtag('js', new Date());
-gtag('config', 'UA-73946745-2');

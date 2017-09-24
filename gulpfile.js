@@ -95,7 +95,6 @@ gulp.task('cleantmp',['vendorJs','vendorCSS','vendorFONT','scss'],function(){
 gulp.task('watch', function () {
     gulp.watch('./source/**/*.jade',['jade']);
     gulp.watch('./source/**/*.scss', ['scss']);
-    gulp.watch('./source/**/*.js', ['babel']);
 });
 
 gulp.task('default', ['jade','scss','vendorJs','vendorCSS','vendorFONT','cleantmp','watch','browser-sync']);
