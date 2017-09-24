@@ -40,6 +40,7 @@ gulp.task('browser-sync',function(){
 gulp.task('deploy', function () {
     return gulp.src('./public/**/*')
         .pipe($.ghPages());
+        
 });
 
 //先講檔案載入暫時的資料夾
