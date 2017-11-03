@@ -26,19 +26,19 @@
             "id": "skills",
             "skills": [
                 {
-                    "name":"PHP(Laravel)",
-                    "detail":"可使用laravel 寫一個CRUD的程式，知道怎麼使用middleware和一些小小的進階用法等",
+                    "name":"PHP",
+                    "detail":"基礎php能力，可使用laravel 寫一個CRUD的程式",
                     "star":6
                 },
                 {
-                    "name": "Javascript(Vue.js 、Jquery、Gulp)",
-                    "detail": "對vue.js 比較熟(尤其與laravel結合)，jquery 和gulp 有特別學習和玩過、至於node.js 略懂而已",
+                    "name": "Javascript",
+                    "detail": "對vue.js 較熟，對 gulp 有特別的學習",
                     "star": 5
                 },
                 {
-                    "name": "Python(Django)",
-                    "detail": "非常喜歡python 簡潔程式碼的特性! 是平常做為「玩具」的程式語言，會寫些簡單的爬蟲和圖形化介面",
-                    "star": 7
+                    "name": "Python",
+                    "detail": "非常喜歡python的特性! 能寫些簡單的爬蟲和圖形化介面",
+                    "star": 5
                 }
             ]
         },
@@ -52,7 +52,7 @@
                         "Boostrap"
                     ],
                     "url": "http://apc.sce.ntnu.edu.tw/abst/",
-                    "description":"在師大工作時，使用laravel做的第一個正式專案。操作多身分登入、Middleware、客製化驗證、ORM操作和RESTful URL"
+                    "description":"在工作時，使用laravel做的第一個正式專案。操作多身分登入、Middleware、客製化驗證、ORM"
                 },
                 {
                     "name": "JimmyFDesginer(2016-2017)",
