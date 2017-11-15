@@ -7,3 +7,6 @@
 > 第二步：npm install 或者 yarn install
 
 > 第三步：gulp
+
+- gulp clean : 清除檔案
+- gulp deploy: 上傳到github

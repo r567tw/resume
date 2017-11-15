@@ -17,6 +17,11 @@
                         "text":"Facebook",
                         "link":"https://www.facebook.com/FangJRs",
                         "icon":"fa fa-facebook"
+                    },
+                    {
+                        "text":"關於我的部落格",
+                        "link":"https://r567tw.tw",
+                        "icon":"fa fa-home"
                     }
                 ],
                 "description":"Hi ，我是偉君，是位台東人，享受用程式解決問題的過程、也想要寫出美妙的程式，希望可以越來越強，用程式及信仰改變世界!"
@@ -52,7 +57,7 @@
                         "Boostrap"
                     ],
                     "url": "http://apc.sce.ntnu.edu.tw/abst/",
-                    "description":"在工作時，使用laravel做的第一個正式專案。操作多身分登入、Middleware、客製化驗證、ORM"
+                    "description":"在工作時，使用laravel做的第一個正式專案。操作多身分登入、Middleware、客製化驗證、ORM、利用到中大型架構中 的Services和Presenters模式"
                 },
                 {
                     "name": "JimmyFDesginer(2016-2017)",
@@ -64,17 +69,7 @@
                     ],
                     "url": "https://r567tw.tw/jimmyfdesigner/",
                     "description": "自己看著別人的教學手冊實做wordpress佈景主題，目前較為得意的作品，並套用在自己的部落格上"
-                },
-                {
-                    "name": "office(2017)",
-                    "uses": [
-                        "Python",
-                        "Selenium",
-                        "Tkinter"
-                    ],
-                    "url": "https://github.com/r567tw/office",
-                    "description": "工作時常用到一些東西，例如產生身分證、google map 截圖或移動檔案等，所以看著書及自己構想利用python隨意打造一些自己想要的東西"
-                }                        
+                }                      
             ]
         },
         {
