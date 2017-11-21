@@ -32,7 +32,7 @@
             "skills": [
                 {
                     "name":"PHP",
-                    "detail":"基礎php能力，可使用laravel 寫一個CRUD的程式",
+                    "detail":"基礎php能力，有嘗試過寫一個wordpress 佈景主題(JimmyFDesginer)，可使用laravel 寫一個CRUD的程式",
                     "star":6
                 },
                 {
@@ -69,7 +69,7 @@
                     ],
                     "url": "https://r567tw.tw/jimmyfdesigner/",
                     "description": "自己看著別人的教學手冊實做wordpress佈景主題，目前較為得意的作品，並套用在自己的部落格上"
-                }                      
+                }
             ]
         },
         {
@@ -80,8 +80,8 @@
                     "time": "2016.07-2017.12",
                     "uses": ["php","javascript","jquery","mysql","laravel","vue.js"],
                     "description":"維護現有專案，負責原住民語言認證、幼幼客語闖通關、檢集表及閱卷系統等，以Laravel 翻新原本Native php 的原住民認證網站"
-                }           
+                }
             ]
-        }    
+        }
     ]
 }
