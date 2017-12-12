@@ -73,7 +73,7 @@
                 {
                     "name": "office(2017-)",
                     "uses": [
-                        "python",
+                        "python"
                     ],
                     "url": "https://github.com/r567tw/office",
                     "description": "在工作之餘，學習python，並且使用它作一些可以自動化或各式各樣有趣的工作(youtube 下載、檔案搬移複製、自動化腳本等)"
