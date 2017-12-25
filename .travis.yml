@@ -9,7 +9,12 @@ install:
   - bower install
 script:
   - gulp
-  - git config --global user.email "r567tw@gmail.com"
-  - git config --global user.name "r567tw"
-  - gulp deploy
+before_deploy: git config --global user.email r567tw@gmail.com && git config --global user.name "r567tw"
+deploy:
+  - edge: true
+    skip_cleanup: true
+    provider: script
+    script: gulp publish
+    on:
+      branch: master
 
