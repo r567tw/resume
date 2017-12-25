@@ -84,12 +84,14 @@
                     "description": "在工作之餘，學習python，並且使用它作一些可以自動化或各式各樣有趣的工作(youtube 下載、檔案搬移複製、自動化腳本等)"
                 },
                 {
-                    "name": "office(2017-)",
+                    "name": "techblog(2017-)",
                     "uses": [
-                        "python"
+                        "vue.js",
+                        "wordpress api",
+                        "travis ci"
                     ],
-                    "url": "https://github.com/r567tw/office",
-                    "description": "在工作之餘，學習python，並且使用它作一些可以自動化或各式各樣有趣的工作(youtube 下載、檔案搬移複製、自動化腳本等)"
+                    "url": "https://tech.r567tw.tw",
+                    "description": "在工作之餘，使用vue.js 配合wordpress api 串接，打造一個部落格的分站-技術部落格，並首度學習使用travis CI"
                 }
             ]
         },
