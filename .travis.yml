@@ -4,10 +4,11 @@ node.js:
   -"8"
 install:
   - npm install
+  - npm install --global gulp-cli
   - npm install -g bower
+  - bower install
 script:
   - cd resume
-  - bower install
   - gulp
   - gulp clean
   - gulp deploy
