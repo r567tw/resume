@@ -5,10 +5,13 @@ install:
 - npm install --global gulp-cli
 - npm install -g bower
 - bower install
+befor_script:
+  - git config --global user.email r567tw@gmail.com
+  - git config --global user.name "r567tw"
+  - git remote rm origin
+  - git remote add origin https://r567tw:${GH_TOKEN}@github.com/r567tw/resume.git
 script:
 - gulp
-before_deploy: git config --global user.email r567tw@gmail.com && git config --global
-  user.name "r567tw"
 deploy:
 - edge: true
   skip_cleanup: true
@@ -18,5 +21,4 @@ deploy:
     branch: master
 env:
   global:
-  - GITHUB_REPO:"r567tw/resume"
-  - secure: PKfynQXzxRw83WhnscHpkPFre6SHJByFoOfQ6e+qDRXi/77xYF9xdxstNkRtLz7xchsM+5nS9Cp4VFJRsllcsfCA4pfeaZe/jCjF7f/mykt8AgurGJGf2xWBOfS6hQ1qFQ9aUXtVEKieZBTaL2e4HPlM+vX5bhcLEzr8eDqiZSlax9IT1HBplCcAmRI86zj7Z1kYb9CD+bRr0GS3nDe5MCR2O5RsUiYAdlWqRRgRYKKwAWK8X/koHqQO6lNpBLTTIDWIHuBZd5nEX7aiajVMrIRwYO8skRW4NsAM5bAVSIEM6ScLKIIh9R/sHgxE2Pi+7WFcHwUBQ7K1nQdgyFUPBftQbGfv0k/izCwMRYiBBx1R40he53wIH3kyRL68O1KzNgodGss2xbsI9TtU942ml5GFrVZSdbFPE9bU73ZTSNDn2HRhqY62t3ASxGWgCuOlcQHTGEVQvFy2HA5p2ftydpLIRZRMzIWmaWvGCiROTXTtThjbEJ212LmxquFSjVqXVc1+VC5QdW+rgF8Dv0Lm8rEekSA6dpg0Kiud26Sc7Pw7rP7ThTIppSQgWGYkzIPthfsYZogaHblQ4P81K5la4u/aFB5afBZH0TWTkbhghQ4nHzN72scFC8imTnDYvZ/jLTqVQcl2ooHFrrixBK1AeGT8HzAT+J5Cv7y0xJ13OQ0=
+    secure: PKfynQXzxRw83WhnscHpkPFre6SHJByFoOfQ6e+qDRXi/77xYF9xdxstNkRtLz7xchsM+5nS9Cp4VFJRsllcsfCA4pfeaZe/jCjF7f/mykt8AgurGJGf2xWBOfS6hQ1qFQ9aUXtVEKieZBTaL2e4HPlM+vX5bhcLEzr8eDqiZSlax9IT1HBplCcAmRI86zj7Z1kYb9CD+bRr0GS3nDe5MCR2O5RsUiYAdlWqRRgRYKKwAWK8X/koHqQO6lNpBLTTIDWIHuBZd5nEX7aiajVMrIRwYO8skRW4NsAM5bAVSIEM6ScLKIIh9R/sHgxE2Pi+7WFcHwUBQ7K1nQdgyFUPBftQbGfv0k/izCwMRYiBBx1R40he53wIH3kyRL68O1KzNgodGss2xbsI9TtU942ml5GFrVZSdbFPE9bU73ZTSNDn2HRhqY62t3ASxGWgCuOlcQHTGEVQvFy2HA5p2ftydpLIRZRMzIWmaWvGCiROTXTtThjbEJ212LmxquFSjVqXVc1+VC5QdW+rgF8Dv0Lm8rEekSA6dpg0Kiud26Sc7Pw7rP7ThTIppSQgWGYkzIPthfsYZogaHblQ4P81K5la4u/aFB5afBZH0TWTkbhghQ4nHzN72scFC8imTnDYvZ/jLTqVQcl2ooHFrrixBK1AeGT8HzAT+J5Cv7y0xJ13OQ0=
