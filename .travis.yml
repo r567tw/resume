@@ -14,7 +14,7 @@ deploy:
   - edge: true
     skip_cleanup: true
     provider: script
-    script: gulp publish
+    script: gulp deploy
     on:
       branch: master
 
