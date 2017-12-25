@@ -8,7 +8,6 @@ install:
   - npm install -g bower
   - bower install
 script:
-  - cd resume
   - gulp
   - gulp deploy
 
