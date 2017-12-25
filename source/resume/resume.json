@@ -19,6 +19,11 @@
                         "icon":"fa fa-facebook"
                     },
                     {
+                        "text":"技術部落格",
+                        "link":"https://tech.r567tw.tw",
+                        "icon":"fa fa-rocket"                        
+                    },
+                    {
                         "text":"關於我的部落格",
                         "link":"https://r567tw.tw",
                         "icon":"fa fa-home"
@@ -69,6 +74,14 @@
                     ],
                     "url": "https://r567tw.tw/jimmyfdesigner/",
                     "description": "自己看著別人的教學手冊實做wordpress佈景主題，目前較為得意的作品，並套用在自己的部落格上"
+                },
+                {
+                    "name": "office(2017-)",
+                    "uses": [
+                        "python"
+                    ],
+                    "url": "https://github.com/r567tw/office",
+                    "description": "在工作之餘，學習python，並且使用它作一些可以自動化或各式各樣有趣的工作(youtube 下載、檔案搬移複製、自動化腳本等)"
                 },
                 {
                     "name": "office(2017-)",
