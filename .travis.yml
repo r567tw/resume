@@ -9,5 +9,7 @@ install:
   - bower install
 script:
   - gulp
+  - git config --global user.email "r567tw@gmail.com"
+  - git config --global user.name "r567tw"
   - gulp deploy
 
