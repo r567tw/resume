@@ -8,8 +8,6 @@ install:
 before_script:
   - git config --global user.email r567tw@gmail.com
   - git config --global user.name "r567tw"
-  - git remote rm origin
-  - git remote add origin https://r567tw:${GITHUB_TOKEN}@github.com/r567tw/resume.git
 script:
 - gulp
 deploy:
