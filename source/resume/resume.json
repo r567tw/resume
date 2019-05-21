@@ -38,17 +38,32 @@
                 {
                     "name":"PHP",
                     "detail":"基礎php能力，有嘗試過寫一個wordpress 佈景主題(JimmyFDesginer)，可使用laravel 寫一個CRUD的程式",
-                    "star":7
+                    "star":9
                 },
                 {
                     "name": "Javascript",
                     "detail": "對vue.js 較熟，對 gulp 有特別的學習",
-                    "star": 5
+                    "star": 7
                 },
                 {
                     "name": "Python",
-                    "detail": "非常喜歡python的特性! 能寫些簡單的爬蟲和圖形化介面",
+                    "detail": "能使用與撰寫Django,Flask,BeautifulSoup爬蟲,tinker等等",
+                    "star": 8
+                },
+                {
+                    "name": "Vue.js",
+                    "detail": "",
+                    "star": 5
+                },
+                {
+                    "name": "Angular",
+                    "detail": "",
                     "star": 6
+                },
+                {
+                    "name": "HTML/CSS",
+                    "detail": "",
+                    "star": 9
                 }
             ]
         },
@@ -65,7 +80,7 @@
                     "description":"在工作時，使用laravel做的第一個正式專案。操作多身分登入、Middleware、客製化驗證、ORM、利用到中大型架構中 的Services和Presenters模式"
                 },
                 {
-                    "name": "JimmyFDesginer(2016-2017)",
+                    "name": "JimmyFDesginer(2016-Now)",
                     "uses": [
                         "jquery",
                         "Boostrap",
@@ -75,6 +90,7 @@
                     "url": "https://r567tw.tw/jimmyfdesigner/",
                     "description": "自己看著別人的教學手冊實做wordpress佈景主題，目前較為得意的作品，並套用在自己的部落格上"
                 }
+
             ]
         },
         {
@@ -85,6 +101,12 @@
                     "time": "2016.07-2017.12",
                     "uses": ["php","javascript","jquery","mysql","laravel","vue.js"],
                     "description":"維護現有專案，負責原住民語言認證、幼幼客語闖通關、檢集表及閱卷系統等，以Laravel 翻新原本Native php 的原住民認證網站，以及開發僑先部教學務系統"
+                },
+                {
+                    "name": "雷技資訊科技-PHP後端工程師",
+                    "time": "2018.03-Now",
+                    "uses": ["php","javascript","angular","mysql","laravel","wordpress","magento"],
+                    "description":"開發與維護Laravel,Magento,Wordpress, Angular相關專案、Mysql 資料庫相關開發與維護"
                 }
             ]
         }
