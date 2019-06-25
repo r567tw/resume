@@ -62,7 +62,7 @@
                 },
                 {
                     "name": "HTML/CSS",
-                    "detail": "",
+                    "detail": "會使用SCSS和SASS 操作CSS",
                     "star": 9
                 }
             ]
@@ -107,6 +107,16 @@
                     "time": "2018.03-Now",
                     "uses": ["php","javascript","angular","mysql","laravel","wordpress","magento"],
                     "description":"開發與維護Laravel,Magento,Wordpress, Angular相關專案、Mysql 資料庫相關開發與維護"
+                }
+            ]
+        },
+        {
+            "id" : "other",
+            "contents":[
+                {
+                    "title": "It幫幫忙鐵人賽",
+                    "time": "2016.07-2017.12",
+                    "description":"鐵人賽"
                 }
             ]
         }

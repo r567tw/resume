@@ -2,7 +2,7 @@ extend partial/_layout.jade
 block nav
     include partial/_navbar.jade    
 block content
-    p(id="about")
+    p(id="#{menu.list[0].id}")
         .jumbotron.wow.fadeIn
             h1
                 |#{menu.list[0].name}
@@ -27,7 +27,7 @@ block content
                     i(class="fa fa fa-arrow-down animated infinite fadeIn",aria-hidden="true")
 
     
-    p(id="skills")
+    p(id="#{menu.list[1].id}")
         .jumbotron.wow.fadeIn
             h1
                 |#{menu.list[1].name}
@@ -48,7 +48,7 @@ block content
                 a(class="btn btn-lg btn-primary btn-more",href="#works",data-id="works")
                     i(class="fa fa fa-arrow-down animated infinite fadeIn",aria-hidden="true")
     
-    p(id="works")
+    p(id="#{menu.list[2].id}")
         .jumbotron.wow.fadeIn
             h1
                 |#{menu.list[2].name}
@@ -72,7 +72,7 @@ block content
                 a(class="btn btn-lg btn-primary btn-more",href="#experiences",data-id="experiences")
                     i(class="fa fa fa-arrow-down animated infinite fadeIn",aria-hidden="true")
 
-        p(id="experiences")
+        p(id="#{menu.list[3].id}")
         .jumbotron.wow.fadeIn
             h1
                 |#{menu.list[3].name}
@@ -92,5 +92,20 @@ block content
                                         div(class="badge badge-lg badge-default")
                                             |#{use} 
         
+        p(id="#{menu.list[4].id}")
+        .jumbotron.wow.fadeIn
+                h1
+                    |#{menu.list[4].name}
+                hr(class="my-4")
+                div
+                    each content,i in resume.data[4].contents
+                        .card
+                            .card-block
+                                h3(class="card-title")|#{content.title}
+                                p(class="card-text")
+                                    |#{content.description}
+                                .text-left
+                                    u
+                                        |#{content.time} 
         .top
             i(class="fa fa-arrow-up animated infinite bounceInUp",aria-hidden="true")

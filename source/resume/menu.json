@@ -7,19 +7,28 @@
     "list":[
         {
             "name":"基本資訊",
-            "url":"#about"
+            "url":"#about",
+            "id":"about"
         },
         {
             "name":"技能與專長",
-            "url": "#skills"
+            "url": "#skills",
+            "id":"skills"
         },
         {
             "name":"作品",
-            "url": "#works"
+            "url": "#works",
+            "id":"works"
         },
         {
             "name":"經歷",
-            "url": "#experiences"
+            "url": "#experiences",
+            "id":"experiences"
+        },
+        {
+            "name":"其他",
+            "url":"#other",
+            "id":"other"
         }
     ]
 }
