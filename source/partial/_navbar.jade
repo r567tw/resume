@@ -6,15 +6,15 @@ mixin link(url,name)
 nav.navbar.fixed-top.navbar-toggleable-md.navbar-inverse.bg-inverse
   button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
     span.navbar-toggler-icon
-  a.navbar-brand(href='#') #{menu.brand.name}
+  a.navbar-brand(href='#') #{resume.title}
   #navbarSupportedContent.collapse.navbar-collapse
     ul.navbar-nav.mr-auto#navbar-example
-      each item,i in menu.list
+      each item,i in resume.data
         +link(item.url,item.name)
     ul.navbar-nav.text-right.hidden-md-down
       li.nav-item
-        a.nav-link(href="#{menu.blog}")
+        a.nav-link(href="#{resume.blog}")
           i(class="fa fa-pencil",aria-hidden="true")
       li.nav-item
-        a.nav-link(href="#{menu.github}")
+        a.nav-link(href="#{resume.github}")
           i(class="fa fa-github",aria-hidden="true")

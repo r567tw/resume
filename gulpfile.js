@@ -8,10 +8,8 @@ gulp.task('jade',function(){
     gulp.src('./source/*.jade')
         .pipe($.data(function () {
             var resume = require('./source/resume/resume.json');
-            var menu=require('./source/resume/menu.json');
             var source={
                 'resume':resume,
-                'menu':menu
             };
             return source;
         }))
@@ -94,6 +92,7 @@ gulp.task('cleantmp',['vendorJs','vendorCSS','vendorFONT','scss'],function(){
 
 gulp.task('watch', function () {
     gulp.watch('./source/**/*.jade',['jade']);
+    gulp.watch('./source/resume/*.json', ['jade']);
     gulp.watch('./source/**/*.scss', ['scss']);
 });
 
