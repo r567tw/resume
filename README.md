@@ -5,13 +5,20 @@
 
 [Demo](https://r567tw.github.io/resume)
 
-[文章介紹](https://r567tw.tw/%e5%88%a9%e7%94%a8gulp-%e8%a3%bd%e4%bd%9c%e8%87%aa%e5%b7%b1%e7%9a%84%e5%b1%a5%e6%ad%b7/)
+[文章介紹](https://tech.r567tw.tw/%e5%88%a9%e7%94%a8gulp-%e8%a3%bd%e4%bd%9c%e8%87%aa%e5%b7%b1%e7%9a%84%e5%b1%a5%e6%ad%b7/)
+
 > 第一步：bower install
 
 > 第二步：npm install 或者 yarn install
 
-> 第三步：gulp 或者 gulp dev
+> 第三步：gulp
 
 - gulp dev : 自動開啟瀏覽器預覽
-- gulp clean : 清除檔案
+- gulp watch : 觀看檔案是否有更動
+- gulp clean : 清除一些暫時性檔案
 - gulp deploy: 上傳到github
+    - 可使用，不過目前Deploy改使用Travis
+
+## Update log
+2017.12 Add Travis Deploy
+2019.06 Fixed Travis
