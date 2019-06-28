@@ -14,8 +14,9 @@ script:
 - gulp
 deploy:
 - edge: true
+  github_token: 94b1035ee7b72dc33a8a029ce3546ca99a7bcc82
   skip_cleanup: true
-  provider: script
+  provider: script 
   script: gulp deploy
   on:
     branch: master
