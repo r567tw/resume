@@ -114,9 +114,16 @@
             "id" : "other",
             "contents":[
                 {
-                    "title": "It幫幫忙鐵人賽",
-                    "time": "2016.07-2017.12",
-                    "description":"鐵人賽"
+                    "title": "LaravelConf 2017",
+                    "time": "2017.07.01",
+                    "description":"人生的第一個Tech Conf，覺得有很多需要再學習...",
+                    "link":"https://tech.r567tw.tw/%e5%8f%83%e5%8a%a0laravelconf2017/"
+                },
+                {
+                    "title": "PythonX30",
+                    "time": "2018.10.01-2018.10.30",
+                    "description":"臨時興起想參加 2019 iT 邦幫忙鐵人賽，不過有些文章為了趕30天而匆忙上架，下次學到要囤文章才對！",
+                    "link":"https://ithelp.ithome.com.tw/users/20106999/ironman/1805"
                 }
             ]
         }

@@ -6,9 +6,9 @@ install:
 - npm install -g bower
 - bower install
 before_script:
-  - git config --global user.email r567tw@gmail.com
-  - git config --global user.name "r567tw"
-  - git remote set-url origin git@github.com:r567tw/resume.git
+- git config --global user.email r567tw@gmail.com
+- git config --global user.name "r567tw"
+- git remote add origin https://r567tw:${GITHUB_TOKEN}@github.com/r567tw/resume.git
 script:
 - gulp
 deploy:
@@ -20,4 +20,4 @@ deploy:
     branch: master
 env:
   global:
-    secure: PKfynQXzxRw83WhnscHpkPFre6SHJByFoOfQ6e+qDRXi/77xYF9xdxstNkRtLz7xchsM+5nS9Cp4VFJRsllcsfCA4pfeaZe/jCjF7f/mykt8AgurGJGf2xWBOfS6hQ1qFQ9aUXtVEKieZBTaL2e4HPlM+vX5bhcLEzr8eDqiZSlax9IT1HBplCcAmRI86zj7Z1kYb9CD+bRr0GS3nDe5MCR2O5RsUiYAdlWqRRgRYKKwAWK8X/koHqQO6lNpBLTTIDWIHuBZd5nEX7aiajVMrIRwYO8skRW4NsAM5bAVSIEM6ScLKIIh9R/sHgxE2Pi+7WFcHwUBQ7K1nQdgyFUPBftQbGfv0k/izCwMRYiBBx1R40he53wIH3kyRL68O1KzNgodGss2xbsI9TtU942ml5GFrVZSdbFPE9bU73ZTSNDn2HRhqY62t3ASxGWgCuOlcQHTGEVQvFy2HA5p2ftydpLIRZRMzIWmaWvGCiROTXTtThjbEJ212LmxquFSjVqXVc1+VC5QdW+rgF8Dv0Lm8rEekSA6dpg0Kiud26Sc7Pw7rP7ThTIppSQgWGYkzIPthfsYZogaHblQ4P81K5la4u/aFB5afBZH0TWTkbhghQ4nHzN72scFC8imTnDYvZ/jLTqVQcl2ooHFrrixBK1AeGT8HzAT+J5Cv7y0xJ13OQ0=
+  - secure: jkRk5naThyru1nR8nHyoyoMGdMppbGUPItP04QP17kPrqwf5WTJ4Kf5wj4k7npBXlOrDvzx2CiEpPIlh2CMHl7VPi2uwg0RqBpVf8n8oyNaDrktTKBLhnULx/dWdYzXu4C2Eyrzllfl0DKQfO5+hO4e6owqQ1ZPzmS5Cw9aHGu7dlhejRLCzar23gmau+Hpgj/AnmzMI4ZIdhFfjG8F/RhxlJ8glObMqGxOZK1C89nDWfZrXFI6Q3q85VtmEuOvJduHzsxAK5tmSMckVEu8DOem8utDn4On/ZFpY/e3XGoNXsMOn9b/OZKQe+EcxOncNE7NWgM7d8wxVZehV6mnsQn2i7jtFL/yid/Zjb2ApQ8DiKYTZcTGff/f0PA+PJeZlfCNGcHKiU5ALHuqQiGdq/gOs+sXWLjcbE6VqQRm+ufACo0TMTH253rr5GOhsYGHJkZUlVAOfKCASPPIUc4UQN9HPpjfb9DxZsaFsQ6TwA4SSZPyUYiYQ8W+6nGseBi28gXIeJTRMMHz2yeZaJCwd0Qp9hGYJMv5JIUljKePqkH8NTLaSyZv6cShwvSY4btIK5ynqvSedCF/UIRCYjOhWFJuH3pN9SQNmnqcEBiMq+GtmjUy1X4Oa3zrk4Vxz2PIDRbCJ/i+wc8TbtgUsc8h1MnRRbDRtwHyhxpDlYfX2Pro=
