@@ -14,12 +14,8 @@ script:
 - gulp
 deploy:
 - edge: true
-  github_token: 94b1035ee7b72dc33a8a029ce3546ca99a7bcc82
   skip_cleanup: true
   provider: script
   script: gulp deploy
   on:
     branch: master
-env:
-  global:
-    secure: YC2A7+7ZJfbA7IZQwU6j4KUAdDeaxljS6G1ThhuWpz9Ushzclom7jn30B3QiNdDl+8xzo8qPMCnYzVNYH31obNTeDRynX+jG0jZ9rIQ86oLXNW3hucgAgFbmB6he4Ce1vrb4oH5IOCxeqsQlW8+Fh1D4GtJhLeOJ48ot+A5u7S6Fl7Fa2qwshzqzNC4i6KioAcYLuyIuAZnTDmW05JwaMsOmrQkogj8vflR+d7Ho07B/R9kpve2ri0bGV5j5YgNfErS/KxqnEoxX89Wh73svSSQAHaw3U4AWsYanCo4toaUcFkasUSff0u1/PWTPnTtDh8aZ6+2yPLUyaF7Q3TbTpSm9bsEYfI4TX3Lwf7phAtmRgLolK7D+ZocwWwQLlwZidWLJUPAGK2wlQ+YhEJepbamY7JBF2HXt0dsvsafsHMUM8d2wDfrx6ggZQWFSIXnxMJHCAXS+ElSN7qaTcAxwKRKY1rnQG7wG7K6enJ90afykhdMh8HNIFtmxjUCal5AB4gYHWGIxb2+u3oa/Qa6v5jPU9PSt/9+ATI5FATAJpybajubKCphfKrW9jHoAlejJpcALgbb9WNBN68Dhpq4v6jKf87cP7P1NfZluxu1DfX6G7gIDZh8EXejqj+PpFT8TR10+76R9IFeFC2FrcUBpQlPW+4ztpKpOPLYjXWSUZl4=
