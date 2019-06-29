@@ -9,15 +9,15 @@ block content
             hr(class="my-4")
             .card
                 .card-block 
-                    h3(class="card-title") #{resume.data[0].content.name}
-                    p(class="card-text") #{resume.data[0].content.email}
+                    h3(class="card-title") Name: #{resume.data[0].content.name}
+                    p(class="card-text") Email: #{resume.data[0].content.email}
                     p(class="card-text")
                         each insterested,i in resume.data[0].content.interesteds
                             h5(class="badge badge-lg badge-default")
                                 |#{insterested}
                     p(class="card-text")
                         |#{resume.data[0].content.description}
-            p
+            p.text-right
                 each social,i in resume.data[0].content.socials
                     a(class="btn btn-success btn-blank",href="#{social.link}")
                         i(class="#{social.icon}",aria-hidden="true")
@@ -32,9 +32,9 @@ block content
             h1
                 |#{resume.data[1].name}
             hr(class="my-4")
-            div
+            div(class="row")
                 each skill,i in resume.data[1].skills
-                    .card
+                    .card.col-md-6
                         .card-block
                             h4(class="card-title")|#{skill.name}
                             p(class="card-text")|#{skill.detail}
@@ -53,21 +53,21 @@ block content
             h1
                 |#{resume.data[2].name}
             hr(class="my-4")
-            div
+            div(class="row")
                 each work,i in resume.data[2].works
-                    .card
+                    .card.col-md-6
                         .card-block
                             h3(class="card-title")|#{work.name}
-                            p(class="card-text")
+                            .text-left
+                                each use,i in work.uses
+                                        div(class="badge badge-lg badge-default")
+                                            |#{use}
+                            span(class="card-text")
                                 |#{work.description}
                                 .text-right
                                     a(class="btn btn-md btn-info" href="#{work.url}")
                                         i(class="fa fa-link" aria-hidden="true")
                                         |連結
-                            .text-left
-                                each use,i in work.uses
-                                        div(class="badge badge-lg badge-default")
-                                            |#{use}
             .text-center
                 a(class="btn btn-lg btn-primary btn-more",href="#experiences",data-id="experiences")
                     i(class="fa fa fa-arrow-down animated infinite fadeIn",aria-hidden="true")
@@ -83,7 +83,7 @@ block content
                         .card-block
                             h3(class="card-title")|#{experience.name}
                             p(class="card-text")
-                                u
+                                div
                                     |任職期間：#{experience.time} 
                             p(class="card-text")
                                 |#{experience.description}
@@ -91,25 +91,28 @@ block content
                                 each use,i in experience.uses
                                         div(class="badge badge-lg badge-default")
                                             |#{use} 
+            .text-center
+                a(class="btn btn-lg btn-primary btn-more",href="#others",data-id="other")
+                    i(class="fa fa fa-arrow-down animated infinite fadeIn",aria-hidden="true")
+
         
         p(id="#{resume.data[4].id}")
         .jumbotron.wow.fadeIn
                 h1
                     |#{resume.data[4].name}
                 hr(class="my-4")
-                div
+                div.row
                     each content,i in resume.data[4].contents
-                        .card
+                        .card.col-md-6
                             .card-block
                                 h3(class="card-title")|#{content.title}
+                                p
+                                    |#{content.time}
                                 p(class="card-text")
                                     |#{content.description}
                                 .text-left
-                                    u
-                                        |#{content.time}
-                                .text-right
-                                    a(class="btn btn-md btn-info" href="#")
+                                    a(class="btn btn-md btn-info" href="#{content.link}")
                                         i(class="fa fa-link" aria-hidden="true")
                                         |連結
         .top
-            i(class="fa fa-arrow-up animated infinite bounceInUp",aria-hidden="true")
+            i(class="fa fa-arrow-up",aria-hidden="true")

@@ -9,7 +9,7 @@
             "id":"about",
             "content":
             {
-                "name":"r567tw",
+                "name":"方小君",
                 "email":"r567tw@gmail.com",
                 "interesteds":["旅遊","閱讀","看棒球"],
                 "socials":[
@@ -34,7 +34,7 @@
                         "icon":"fa fa-home"
                     }
                 ],
-                "description":"Hi ，我是偉君，是位台東人，享受用程式解決問題的過程、也想要寫出美妙的程式，希望可以越來越強，用程式及信仰改變世界! 如要聯絡我的話，請在平日中午12-13的時候謝謝"
+                "description":"住在台北的一位台東developer，最喜歡\"忠心\"這個形容詞。這一生希望完成三件事：寫一本書、站在TED演講並且想要成為福音及各種學科的橋梁，希望自己能從基督教的思考框架出發與各學科傾聽、回應、對話。如要聯絡我的話，請在平日中午12-13的時候謝謝"
             }
         },
         {
@@ -44,17 +44,17 @@
             "skills": [
                 {
                     "name":"PHP",
-                    "detail":"基礎php能力，有嘗試過寫一個wordpress 佈景主題(JimmyFDesginer)，可使用laravel 寫一個CRUD的程式",
+                    "detail":"",
                     "star":9
                 },
                 {
                     "name": "Javascript",
-                    "detail": "對vue.js 較熟，對 gulp 有特別的學習",
+                    "detail": "",
                     "star": 7
                 },
                 {
                     "name": "Python",
-                    "detail": "能使用與撰寫Django,Flask,BeautifulSoup爬蟲,tinker等等",
+                    "detail": "",
                     "star": 8
                 },
                 {
@@ -69,7 +69,7 @@
                 },
                 {
                     "name": "HTML/CSS",
-                    "detail": "會使用SCSS和SASS 操作CSS",
+                    "detail": "",
                     "star": 9
                 }
             ]
@@ -98,6 +98,17 @@
                     ],
                     "url": "https://r567tw.tw/jimmyfdesigner/",
                     "description": "自己看著別人的教學手冊實做wordpress佈景主題，目前較為得意的作品，並套用在自己的部落格上"
+                },
+                {
+                    "name": "Sub-bot(2019-Now)",
+                    "uses": [
+                        "laravel",
+                        "line bot",
+                        "heroku",
+                        "postgresql"
+                    ],
+                    "url": "https://github.com/r567tw/sub-bot",
+                    "description": "從Bible-bot 延伸出來的子專案"
                 }
 
             ]
