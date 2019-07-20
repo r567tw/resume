@@ -11,7 +11,8 @@
             {
                 "name":"方小君",
                 "email":"r567tw@gmail.com",
-                "interesteds":["旅遊","閱讀","看棒球"],
+                "interesteds":["旅遊","閱讀","電影","棒球"],
+                "photo":"https://lh3.googleusercontent.com/Ij5l_IZf2I476qBZ9L4Sj4N1U_Y2ZmJDQD0ObT2JFGf374FfYLq3P0c83JNqDk6gISuXDjTnS61hTAAzBXWs68iyhHu0uJ452MNd4veb_TBzrrOarf85YgwNgOjrZifnIs98bC1aiHV_Io_PO1aEFKh3lvifBC7z0oSrxgRBTmMnsg8OTweuNlWEBKNtM1vQxxAzKdSLHp3gKZ6eXEcJJZMiadA9awPpPHerTn_GJtCYTNySz5ATsRALsVhht0XykpFkDip-YoeZipF0UiQL7CBR3w2reNwQfyDOJ-1L8I2-XaDEP48JyiXvE9v-qII3gsD4tvzyQXt4r3j5sxahJTx3CaWbo4QVkiY7dygfSYipfrSPmPj0uzOwcAWVTQrRnHbnj1UwvCU65BP0xJZ_hvJdAq3x-mJknZ4o3viMCfLWoR-usgRlWOmm0W-Rfr7oIkuGS8eHtqlns4R-0nBJf-Z2kDxCZgmTxqFNZQM1HMRGxFSk9AbBRdL-hzsTfnoXBOeyxaVQxe1NJ9LVS5G4b19UvnaZ5Jll7sRkVZbZpA3iecUYInia_-2pxjIYizYM6zA7nLW2PuKyJ5ME_seYugCQnU-BRsSG1sTcTzglhEVR5j4C6O5sdXlT0fX0RlCNRtgQvBzjF6Rka6q5t0FRzSpgoAVvZDrf=w1036-h1378-no",
                 "socials":[
                     {
                         "text":"GitHub",
@@ -29,12 +30,12 @@
                         "icon":"fa fa-rocket"                        
                     },
                     {
-                        "text":"關於我的部落格",
+                        "text":"樂在信仰中",
                         "link":"https://r567tw.tw",
                         "icon":"fa fa-home"
                     }
                 ],
-                "description":"住在台北的一位台東developer，最喜歡\"忠心\"這個形容詞。這一生希望完成三件事：寫一本書、站在TED演講並且想要成為福音及各種學科的橋梁，希望自己能從基督教的思考框架出發與各學科傾聽、回應、對話。如要聯絡我的話，請在平日中午12-13的時候謝謝"
+                "description":"住在台北的一位台東developer，最喜歡\"忠心\"這個形容詞。這一生希望完成三件事：寫一本書、站在TED演講並且想要成為福音及各種學科的橋梁，希望自己能從基督教的思考框架出發與各學科傾聽、回應、對話。"
             }
         },
         {
@@ -86,7 +87,7 @@
                         "Boostrap"
                     ],
                     "url": "http://apc.sce.ntnu.edu.tw/abst/",
-                    "description":"在工作時，使用laravel做的第一個正式專案。操作多身分登入、Middleware、客製化驗證、ORM、利用到中大型架構中 的Services和Presenters模式"
+                    "description":"在師大擔任資訊助理時主負責的案子，使用laravel重構原以native php開發的系統。操作多身分登入、Middleware、客製化驗證、ORM、利用到中大型架構中 的Services和Presenters模式"
                 },
                 {
                     "name": "JimmyFDesginer(2016-Now)",
@@ -97,18 +98,18 @@
                         "Native php"
                     ],
                     "url": "https://r567tw.tw/jimmyfdesigner/",
-                    "description": "自己看著別人的教學手冊實做wordpress佈景主題，目前較為得意的作品，並套用在自己的部落格上"
+                    "description": "自己看著別人的教學手冊實做wordpress佈景主題，目前自己的部落格皆套用此主題"
                 },
                 {
-                    "name": "Sub-bot(2019-Now)",
+                    "name": "Bot(2019-Now)",
                     "uses": [
                         "laravel",
                         "line bot",
                         "heroku",
                         "postgresql"
                     ],
-                    "url": "https://github.com/r567tw/sub-bot",
-                    "description": "從Bible-bot 延伸出來的子專案"
+                    "url": "https://github.com/r567tw/bot",
+                    "description": "從Bible-bot 延伸出來的子專案，使用Laravel開發"
                 }
 
             ]
