@@ -20,26 +20,36 @@
     "font-awesome": "fontawesome#^4.7.0",
     "wow": "wow.js#^1.1.2",
     "animate.css": "^3.5.2",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "particles.js": "^2.0.0"
   },
   "overrides": {
     "bootstrap": {
-      "main":["dist/css/bootstrap.css","dist/js/bootstrap.js"]
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
     },
     "animate.css": {
-      "main":"animate.min.css"
+      "main": "animate.min.css"
     },
     "font-awesome": {
-      "main":["css/font-awesome.css","fonts/fontawesome-webfont.*"]
+      "main": [
+        "css/font-awesome.css",
+        "fonts/fontawesome-webfont.*"
+      ]
     },
     "jquery": {
-      "main":"dist/jquery.js"
+      "main": "dist/jquery.js"
     },
     "tether": {
-      "main":"dist/js/tether.js"
+      "main": "dist/js/tether.js"
     },
     "wow": {
-      "main":"dist/wow.js"
+      "main": "dist/wow.js"
+    },
+    "particles.js":{
+      "main": "particles.min.js"
     }
   }
 }

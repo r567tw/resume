@@ -1,10 +1,18 @@
+body,
+html {
+    height: auto;
+    background-color: #000000;
+}
+
 .container{
+    z-index: 1;
     padding-top: 100px;
 }
 
 .card{
     background-color: inherit;
     margin-bottom: 20px;
+    z-index: 1;
 }
 
 .btn-blank{
@@ -24,6 +32,7 @@ i{
 }
 
 .top{
+    z-index:1;
     position: fixed;
     bottom: 10px;
     right: 30px;
@@ -33,4 +42,12 @@ i{
     background-color:#888888;
     font-size: 30px;
     margin: 0,auto;
+}
+
+#particles-js canvas {
+    display: block;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
 }

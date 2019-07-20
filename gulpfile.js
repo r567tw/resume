@@ -53,7 +53,8 @@ gulp.task('vendorJs',['bower'],function(){
         'jquery.js',
         'tether.js',
         'bootstrap.js',
-        'wow.js'
+        'wow.js',
+        'particles.min.js'
     ]))
     .pipe($.concat('all.js'))
     .pipe($.uglify({
