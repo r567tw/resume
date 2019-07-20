@@ -12,7 +12,7 @@ block content
                 .card-block 
                     
                     div(class="col-md-2 float-right")
-                        img(class="img-fluid rounded-circle",src="#{resume.data[0].content.photo}")
+                        img(class="img-fluid rounded-circle",src="#{resume.data[0].content.photo}",style="transform: rotate(90deg);")
                     h3(class="card-title") #{resume.data[0].content.name} 
                         sub (暱稱)
                     p(class="card-text") Email: #{resume.data[0].content.email}
