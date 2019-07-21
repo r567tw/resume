@@ -1,0 +1,21 @@
+div(id="contact")
+    div.jumbotron.wow.fadeIn
+        h1 聯絡我吧
+        hr(class="my-4")
+        p
+            |如果有什麼問題，歡迎聯絡我喔！
+        form(action="mailto:r567tw@gmail.com")
+            div(class="form-group")
+                label(for="name") 姓名：
+                input(id="name",class="form-control",type="text",name="name",placeholder="請輸入你的姓名")
+            div(class="form-group")
+                label(for="sender") 電子信箱：
+                input(id="sender",class="form-control",type="email",name="sender",placeholder="請輸入你的電子信箱")
+            div(class="form-group")
+                label(for="subject") 主旨：
+                input(id="subject",class="form-control",type="text",name="subject",placeholder="主旨")
+            div(class="form-group")
+                label(for="body") 訊息內容：
+                textarea(id="body",name="body",class="form-control",placeholder="請填入你要輸入的訊息")
+            div(class="text-center")
+                button(class="btn btn-lg btn-primary",type="sumbit") 送出訊息

@@ -1,0 +1,21 @@
+div(id="#{resume.data[2].id}")
+    .jumbotron.wow.fadeIn
+        h1
+            |#{resume.data[2].name}
+        hr(class="my-4")
+        div(class="row")
+            each work,i in resume.data[2].works
+                .card.col-md-6
+                    .card-block
+                        h3(class="card-title")|#{work.name}
+                        .text-left
+                            each use,i in work.uses
+                                    div(class="badge badge-lg badge-default")
+                                        |#{use}
+                        span(class="card-text")
+                            |#{work.description}
+                            .text-right
+                                a(class="btn btn-md btn-info" href="#{work.url}")
+                                    i(class="fa fa-link" aria-hidden="true")
+                                    |連結
+        +navigate("experiences")

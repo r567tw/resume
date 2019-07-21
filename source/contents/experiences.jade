@@ -1,0 +1,20 @@
+div(id="#{resume.data[3].id}")
+    .jumbotron.wow.fadeIn
+        h1
+            |#{resume.data[3].name}
+        hr(class="my-4")
+        div
+            each experience,i in resume.data[3].experiences
+                .card
+                    .card-block
+                        h3(class="card-title")|#{experience.name}
+                        p(class="card-text")
+                            div
+                                |任職期間：#{experience.time} 
+                        p(class="card-text")
+                            |#{experience.description}
+                        .text-left
+                            each use,i in experience.uses
+                                    div(class="badge badge-lg badge-default")
+                                       |#{use} 
+            +navigate("other") 

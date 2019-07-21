@@ -1,0 +1,18 @@
+div(id="#{resume.data[4].id}")
+    .jumbotron.wow.fadeIn
+        h1 #{resume.data[4].name}
+        hr(class="my-4")
+        div.row
+            each content,i in resume.data[4].contents
+                .card.col-md-12
+                    .card-block
+                        h3(class="card-title")|#{content.title}
+                        div(class="badge badge-lg badge-default")
+                            |#{content.time}
+                        p(class="card-text")
+                            |#{content.description}
+                        .text-right
+                            a(class="btn btn-md btn-info" href="#{content.link}")
+                                i(class="fa fa-link" aria-hidden="true")
+                                |連結
+        +navigate("contact") 
