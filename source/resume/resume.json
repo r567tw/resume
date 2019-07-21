@@ -81,7 +81,28 @@
             "id":"works",
             "works": [
                 {
+                    "name": "Gulp 履歷",
+                    "time": "2017 ~ Now",
+                    "uses": [
+                        "Gulp",
+                        "Sass",
+                        "Pug",
+                        "jquery",
+                        "boostrap",
+                        "animate.css",
+                        "wow",
+                        "bower",
+                        "font-awesome",
+                        "travisCI",
+                        "emailJs",
+                        "GitHub Page"
+                    ],
+                    "url": "https://tech.r567tw.tw/%E5%88%A9%E7%94%A8gulp-%E8%A3%BD%E4%BD%9C%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B1%A5%E6%AD%B7/",
+                    "description":"你目前所看到的頁面，為一個長期開發的個人履歷/個人Profile 頁，主要使用Gulp配合Json開發並以Gihub page呈現,類似Gulp-resume"
+                },
+                {
                     "name": "原住民報名網站(2017)",
+                    "time": "2017.01.01 ~ 2017.12.31",
                     "uses": [
                         "Laravel",
                         "Boostrap"
@@ -90,7 +111,8 @@
                     "description":"在師大擔任資訊助理時主負責的案子，使用laravel重構原以native php開發的系統。操作多身分登入、Middleware、客製化驗證、ORM、利用到中大型架構中 的Services和Presenters模式"
                 },
                 {
-                    "name": "JimmyFDesginer(2016-Now)",
+                    "name": "JimmyFDesginer",
+                    "time": "2016 ~ Now",
                     "uses": [
                         "jquery",
                         "Boostrap",
@@ -102,6 +124,7 @@
                 },
                 {
                     "name": "Bot(2019-Now)",
+                    "time": "2019 ~ Now",
                     "uses": [
                         "laravel",
                         "line bot",

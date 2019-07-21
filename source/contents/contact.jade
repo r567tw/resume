@@ -4,7 +4,7 @@ div(id="contact")
         hr(class="my-4")
         p
             |如果有什麼問題，歡迎聯絡我喔！
-        form(action="mailto:r567tw@gmail.com")
+        form(name="ContactForm",id="contact-form",action="?",method="GET")
             div(class="form-group")
                 label(for="name") 姓名：
                 input(id="name",class="form-control",type="text",name="name",placeholder="請輸入你的姓名")
@@ -18,4 +18,4 @@ div(id="contact")
                 label(for="body") 訊息內容：
                 textarea(id="body",name="body",class="form-control",placeholder="請填入你要輸入的訊息")
             div(class="text-center")
-                button(class="btn btn-lg btn-primary",type="sumbit") 送出訊息
+                input(class="btn btn-lg btn-primary",type="submit",value="送出訊息") 

@@ -8,6 +8,9 @@ div(id="#{resume.data[2].id}")
                 .card.col-md-6
                     .card-block
                         h3(class="card-title")|#{work.name}
+                        div(class="text-left")
+                            div(class="badge badge-lg badge-info")
+                                |#{work.time}
                         .text-left
                             each use,i in work.uses
                                     div(class="badge badge-lg badge-default")
