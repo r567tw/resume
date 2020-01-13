@@ -8,7 +8,7 @@ const { src, pipe, series, dest, task } = require('gulp');
 
 
 function jade() {
-    return src('./source/*.jade')
+    return src('./source/index.jade')
         .pipe($.data(function () {
             var resume = require('./source/resume/resume.json');
             var source = {
@@ -136,4 +136,4 @@ task('dev', series(bower, jade, scss, venderjs, venderCSS, venderFONT, cleantmp,
 )
 );
 
-task('default', series(jade, scss, venderjs, venderCSS, venderFONT, cleantmp));
+task('default', series(bower, jade, scss, venderjs, venderCSS, venderFONT, cleantmp));

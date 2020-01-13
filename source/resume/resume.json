@@ -165,7 +165,7 @@
         },
         {
           "name": "雷技資訊科技-PHP後端工程師",
-          "time": "2018.03-Now",
+          "time": "2018.03-2019.12",
           "uses": [
             "php",
             "javascript",
@@ -184,6 +184,12 @@
       "url": "#other",
       "id": "other",
       "contents": [
+        {
+          "title": "讓PHP再次偉大，使用Laravel",
+          "time": "2019.10.01-2019.11.30",
+          "description": "參加 2020 iT 邦幫忙鐵人賽， 雖然沒有任何得獎與佳作，但至少是一種紀錄！",
+          "link": "https://ithelp.ithome.com.tw/users/20106999/ironman/2578"
+        },
         {
           "title": "PythonX30",
           "time": "2018.10.01-2018.10.30",
