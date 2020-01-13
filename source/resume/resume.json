@@ -10,7 +10,12 @@
       "content": {
         "name": "方小君",
         "email": "r567tw@gmail.com",
-        "interesteds": ["旅遊", "閱讀", "電影", "棒球"],
+        "interesteds": [
+          "旅遊",
+          "閱讀",
+          "電影",
+          "棒球"
+        ],
         "photo": "https://r567tw.s3-ap-northeast-1.amazonaws.com/MyPhoto.jpg",
         "socials": [
           {
@@ -34,7 +39,7 @@
             "icon": "fa fa-home"
           }
         ],
-        "description": "住在台北的一位台東developer，最喜歡\"忠心\"這個形容詞。這一生希望完成三件事：寫一本書、站在TED演講並且想要成為福音及各種學科的橋梁，希望自己能從基督教的思考框架出發與各學科傾聽、回應、對話。"
+        "description": "是個在台北找工作的台東人。是個喜歡學習、研究，期許自己盡力以認真負責的態度處理事情。"
       }
     },
     {
@@ -107,21 +112,34 @@
         {
           "name": "原住民報名網站(2017)",
           "time": "2017.01.01 ~ 2017.12.31",
-          "uses": ["Laravel", "Boostrap"],
+          "uses": [
+            "Laravel",
+            "Boostrap"
+          ],
           "url": "http://apc.sce.ntnu.edu.tw/abst/",
           "description": "在師大擔任資訊助理時主負責的案子，使用laravel重構原以native php開發的系統。操作多身分登入、Middleware、客製化驗證、ORM、利用到中大型架構中 的Services和Presenters模式"
         },
         {
           "name": "JimmyFDesginer",
           "time": "2016 ~ Now",
-          "uses": ["jquery", "Boostrap", "Wordpress", "Native php"],
+          "uses": [
+            "jquery",
+            "Boostrap",
+            "Wordpress",
+            "Native php"
+          ],
           "url": "https://r567tw.tw/jimmyfdesigner/",
           "description": "自己看著別人的教學手冊實做wordpress佈景主題，目前自己的部落格皆套用此主題"
         },
         {
           "name": "Bot(2019-Now)",
           "time": "2019 ~ Now",
-          "uses": ["laravel", "line bot", "heroku", "postgresql"],
+          "uses": [
+            "laravel",
+            "line bot",
+            "heroku",
+            "postgresql"
+          ],
           "url": "https://github.com/r567tw/bot",
           "description": "從Bible-bot 延伸出來的子專案，使用Laravel開發，使用到 transformer, service 等模式協助開發"
         }
@@ -135,7 +153,14 @@
         {
           "name": "師大進修推廣學院-資訊組專任助理",
           "time": "2016.07-2017.12",
-          "uses": ["php", "javascript", "jquery", "mysql", "laravel", "vue.js"],
+          "uses": [
+            "php",
+            "javascript",
+            "jquery",
+            "mysql",
+            "laravel",
+            "vue.js"
+          ],
           "description": "維護現有專案，負責原住民語言認證、幼幼客語闖通關、檢集表及閱卷系統等，以Laravel 翻新原本Native php 的原住民認證網站，以及開發僑先部教學務系統"
         },
         {
