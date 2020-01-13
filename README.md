@@ -14,10 +14,9 @@
 > 第三步：gulp
 
 - gulp dev : 自動開啟瀏覽器預覽
-- gulp watch : 觀看檔案是否有更動
-- gulp clean : 清除一些暫時性檔案
-- gulp deploy: 上傳到github
-    - 可使用，不過目前Deploy改使用Travis
+- gulp clean/gulp cleantmp : 清除一些暫時性檔案
+- gulp deploy: 上傳到github (棄用，懶得修了XD)
+    - 目前Deploy改使用Travis
 
 ## Update log
 2017.12 Add Travis Deploy
