@@ -22,3 +22,4 @@
 ## Update log
 2017.12 Add Travis Deploy
 2019.06 Fixed Travis
+2019.12 - 2020.01  Upgrade from Gulp3 to Gulp4
