@@ -1,103 +1,139 @@
-var gulp= require('gulp');
+var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 var minifyCSS = require('gulp-minify-css');
 var browserSync = require('browser-sync').create();
-var mainBowerFiles=require('main-bower-files')
+var mainBowerFiles = require('main-bower-files')
+const { src, pipe, series, dest, task } = require('gulp');
 
 
-gulp.task('jade',function(){
-    gulp.src('./source/*.jade')
+
+function jade() {
+    return src('./source/*.jade')
         .pipe($.data(function () {
             var resume = require('./source/resume/resume.json');
-            var source={
-                'resume':resume,
+            var source = {
+                'resume': resume,
             };
             return source;
         }))
         .pipe($.jade())
-        .pipe(gulp.dest('./public/'))
+        .pipe(dest('./public/'))
         .pipe(browserSync.stream())
-})
+}
 
-gulp.task('scss', function () {
-    return gulp.src('./source/scss/**/*.scss')
+task('jade', jade);
+
+function scss() {
+    return src('./source/scss/**/*.scss')
         .pipe($.sass().on('error', $.sass.logError))
-        .pipe(gulp.dest('./.tmp/css'))
+        .pipe(dest('./.tmp/css'))
         .pipe(browserSync.stream())
-});
+}
 
-gulp.task('browser-sync',function(){
+task('scss', scss);
+
+function browser(done) {
     browserSync.init({
-        server:{
-            baseDir:"./public"
+        server: {
+            baseDir: "./public"
         }
     })
-})
+    done();
+}
 
+task('browser', browser)
 
+// gulp.task('deploy', function () {
+//     return gulp.src('./public/**/*')
+//         .pipe($.ghPages());
+// });
 
-gulp.task('deploy', function () {
-    return gulp.src('./public/**/*')
-        .pipe($.ghPages());        
-});
+// //先講檔案載入暫時的資料夾
+function bower() {
+    return src(mainBowerFiles())
+        .pipe(dest('./.tmp/vendors'))
+}
 
-//先講檔案載入暫時的資料夾
-gulp.task('bower', function () {
-    return gulp.src(mainBowerFiles())
-        .pipe(gulp.dest('./.tmp/vendors'))
-});
+task('bower', bower)
 
-//然後做出合併
-gulp.task('vendorJs',['bower'],function(){
-    return gulp.src(['./.tmp/vendors/**/*.js','./source/js/**/*.js'])
-    .pipe($.order([
-        'jquery.js',
-        'tether.js',
-        'bootstrap.js',
-        'wow.js',
-        'particles.min.js'
-    ]))
-    .pipe($.concat('all.js'))
-    .pipe($.uglify({
-        compress:{
-            drop_console:true //把console.log 削掉
-        }
-    }))                               
-    .pipe(gulp.dest('./public/js'))
-    .pipe(browserSync.stream())
-});
+// //然後做出合併
+function venderjs() {
+    return src(['./.tmp/vendors/**/*.js', './source/js/**/*.js'])
+        .pipe($.order([
+            'jquery.js',
+            'tether.js',
+            'bootstrap.js',
+            'wow.js',
+            'particles.min.js'
+        ]))
+        .pipe($.concat('all.js'))
+        .pipe($.uglify({
+            compress: {
+                drop_console: true //把console.log 削掉
+            }
+        }))
+        .pipe(dest('./public/js'))
+        .pipe(browserSync.stream())
+}
 
-gulp.task('vendorCSS',['bower'],function(){    
-    return gulp.src(['./.tmp/vendors/**/*.css','./.tmp/css/**/*.css'])
-    .pipe($.concat('all.css'))
-    .pipe(minifyCSS())                            
-    .pipe(gulp.dest('./public/css'))
-    .pipe(browserSync.stream())    
-});
+task('venderjs', series(bower, venderjs))
 
-gulp.task('vendorFONT',['bower'],function(){
-    return gulp.src("./.tmp/vendors/fontawesome-webfont.*")
-                .pipe(gulp.dest('./public/fonts'))
-});
+function venderCSS() {
+    return src(['./.tmp/vendors/**/*.css', './.tmp/css/**/*.css'])
+        .pipe($.concat('all.css'))
+        .pipe(minifyCSS())
+        .pipe(dest('./public/css'))
+        .pipe(browserSync.stream())
+}
 
-//刪除資料夾
-gulp.task('clean',function(){
-    return gulp.src(['./.tmp','./public','./.publish'],{read:false})
+task('venderCSS', series(bower, venderCSS))
+
+function venderFONT() {
+    return src("./.tmp/vendors/fontawesome-webfont.*")
+        .pipe(dest('./public/fonts'))
+}
+
+task('venderFONT', series(bower, venderFONT))
+
+// //刪除資料夾
+function clean() {
+    return src(['./.tmp', './public', './.publish'], { read: false, allowEmpty: true })
         .pipe($.clean())
-});
+}
 
-gulp.task('cleantmp',['vendorJs','vendorCSS','vendorFONT','scss'],function(){
-    return gulp.src(['./.tmp'],{read:false})
+task('clean', clean)
+
+function cleantmp() {
+    return src(['./.tmp'], { read: false, allowEmpty: true })
         .pipe($.clean())
         .pipe(browserSync.stream())
-});
+}
 
-gulp.task('watch', function () {
-    gulp.watch('./source/**/*.jade',['jade']);
-    gulp.watch('./source/resume/*.json', ['jade']);
-    gulp.watch('./source/**/*.scss', ['scss']);
-});
+task(cleantmp, series(venderjs, venderCSS, venderFONT, cleantmp))
 
-gulp.task('dev', ['jade','scss','vendorJs','vendorCSS','vendorFONT','cleantmp','watch','browser-sync']);
+function watch() {
+    watch(['./source/**/*.jade'], series(jade));
+    // watch(['./source/resume/*.json'], series(jade));
+    // watch(['./source/**/*.scss'], series(scss));
+}
 
-gulp.task('default', ['jade','scss','vendorJs','vendorCSS','vendorFONT','cleantmp']);
+task('watch', watch);
+
+
+task('dev', series(bower, jade, scss, venderjs, venderCSS, venderFONT, cleantmp,
+    function (done) {
+        browserSync.init({
+            server: {
+                baseDir: "./public",
+                reloadDebounce: 2000
+            }
+        })
+        gulp.watch(['./source/**/*.jade'], series(jade));
+        gulp.watch(['./source/resume/*.json'], series(jade));
+        gulp.watch(['./source/**/*.scss'], series(scss));
+        done();
+    }
+)
+);
+
+task('default', series(jade, scss, venderjs, venderCSS, venderFONT, cleantmp));
