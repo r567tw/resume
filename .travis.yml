@@ -12,6 +12,7 @@ deploy:
   email: r567tw@gmail.com
   name: r567tw
   provider: pages
+  github_token: "$GITHUB_TOKEN"
   local_dir: "public"
   on:
     branch: master
