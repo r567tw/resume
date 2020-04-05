@@ -81,6 +81,11 @@
           "name": "HTML/CSS",
           "detail": "",
           "star": 9
+        },
+        {
+          "name": "Sass/Compass",
+          "detail": "",
+          "star": 6
         }
       ]
     },
@@ -132,7 +137,7 @@
           "description": "自己看著別人的教學手冊實做wordpress佈景主題，目前自己的部落格皆套用此主題"
         },
         {
-          "name": "Bot(2019-Now)",
+          "name": "DevPlayground(2019-Now)",
           "time": "2019 ~ Now",
           "uses": [
             "laravel",
@@ -141,7 +146,7 @@
             "postgresql"
           ],
           "url": "https://github.com/r567tw/bot",
-          "description": "從Bible-bot 延伸出來的子專案，使用Laravel開發，使用到 transformer, service 等模式協助開發"
+          "description": "展示Laravel戰力，使用Laravel開發，使用到 transformer, service 等模式協助開發"
         }
       ]
     },
