@@ -123,7 +123,7 @@
             "GitHub Page"
           ],
           "url": "https://tech.r567tw.tw/%E5%88%A9%E7%94%A8gulp-%E8%A3%BD%E4%BD%9C%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B1%A5%E6%AD%B7/",
-          "description": "你目前所看到的頁面，為一個長期開發的個人履歷/個人Profile 頁，主要使用Gulp配合Json開發並以Gihub page呈現,類似Gulp-resume, 並且也使用TravisCI 做CICD"
+          "description": "你目前所看到的頁面，為一個長期開發的個人履歷/個人Profile 頁，主要使用Gulp配合Json開發並以Gihub page呈現,類似Gulp-resume, 並且也使用TravisCI 做CICD，此專案原本是gulp3,後來有花了點時間改寫成gulp4"
         },
         {
           "name": "原住民報名網站(2017)",
