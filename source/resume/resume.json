@@ -56,12 +56,12 @@
         {
           "name": "Javascript/Jquery",
           "detail": "",
-          "star": 7
+          "star": 8
         },
         {
           "name": "NodeJS",
           "detail": "",
-          "star": 6
+          "star": 8
         },
         {
           "name": "Python",
@@ -74,9 +74,9 @@
           "star": 5
         },
         {
-          "name": "Vue.js",
+          "name": "Vue.js/VueX",
           "detail": "",
-          "star": 7
+          "star": 8
         },
         {
           "name": "Angular",
@@ -97,6 +97,16 @@
           "name": "Sass/Compass",
           "detail": "",
           "star": 6
+        },
+        {
+          "name": "Docker",
+          "detail": "",
+          "star": 5
+        },
+        {
+          "name": "AWS",
+          "detail": "",
+          "star": 5
         }
       ]
     },
@@ -225,7 +235,7 @@
         },
         {
           "title": "LaravelConf",
-          "time": "2017、2019",
+          "time": "2017、2019、2020",
           "description": "參加LaravelConf，學習一些關於Laravel 的新知識",
           "link": "https://tech.r567tw.tw/%e5%8f%83%e5%8a%a0laravelconf2017/"
         }
