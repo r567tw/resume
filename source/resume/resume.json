@@ -64,6 +64,11 @@
           "star": 8
         },
         {
+          "name": "Golang",
+          "detail": "",
+          "star": 6
+        },
+        {
           "name": "Ruby",
           "detail": "",
           "star": 5
@@ -71,17 +76,17 @@
         {
           "name": "Vue.js/VueX",
           "detail": "",
-          "star": 8
+          "star": 4
         },
         {
           "name": "Angular",
           "detail": "",
-          "star": 5
+          "star": 3
         },
         {
           "name": "ionic",
           "detail": "",
-          "star": 5
+          "star": 3
         },
         {
           "name": "HTML/CSS",
@@ -96,12 +101,12 @@
         {
           "name": "Docker",
           "detail": "",
-          "star": 5
+          "star": 8
         },
         {
           "name": "AWS",
           "detail": "",
-          "star": 5
+          "star": 8
         }
       ]
     },
@@ -156,13 +161,15 @@
           "name": "DevPlayground",
           "time": "2019 ~ Now",
           "uses": [
-            "laravel",
-            "line bot",
+            "Laravel",
+            "Line bot",
             "heroku",
+            "aws",
+            "bref",
             "postgresql"
           ],
           "url": "https://github.com/r567tw/bot",
-          "description": "展示Laravel戰力，使用Laravel開發，使用到 transformer, service 等模式協助開發,提供天氣、星座運勢、武漢肺炎等相關查詢,或者其他沒想到的功能...etc"
+          "description": "展示Laravel戰力，使用Laravel開發，使用到 transformer, service 等模式協助開發"
         }
       ]
     },
@@ -202,12 +209,14 @@
           "name": "聯合報行動發展部-服務可靠性(後端)工程師",
           "time": "2020.03-",
           "uses": [
-            "php",
-            "aws",
-            "mysql",
-            "laravel"
+            "PHP",
+            "Laravel",
+            "Python",
+            "Nodejs",
+            "AWS",
+            "MySQL"
           ],
-          "description": "開發與維護一刻鯨選相關API、資料庫相關規劃與維護、學習與應用AWS"
+          "description": "開發與維護一刻鯨選相關API、資料庫相關規劃與維護、開發單集購買，完善測試案例及文件、學習與應用AWS"
         }
       ]
     },
