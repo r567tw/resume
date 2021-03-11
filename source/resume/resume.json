@@ -79,14 +79,14 @@
           "star": 4
         },
         {
-          "name": "Angular",
+          "name": "MySQL",
           "detail": "",
-          "star": 3
+          "star": 8
         },
         {
-          "name": "ionic",
+          "name": "Redis",
           "detail": "",
-          "star": 3
+          "star": 7
         },
         {
           "name": "HTML/CSS",
@@ -179,17 +179,17 @@
       "id": "experiences",
       "experiences": [
         {
-          "name": "師大進修推廣學院-資訊組專任助理",
-          "time": "2016.07-2017.12",
+          "name": "聯合報行動發展部-服務可靠性(後端)工程師",
+          "time": "2020.03-",
           "uses": [
-            "php",
-            "javascript",
-            "jquery",
-            "mysql",
-            "laravel",
-            "vue.js"
+            "PHP",
+            "Laravel",
+            "Python",
+            "Nodejs",
+            "AWS",
+            "MySQL"
           ],
-          "description": "維護現有專案，負責原住民語言認證、幼幼客語闖通關、檢集表及閱卷系統等，以Laravel 翻新原本Native php 的原住民認證網站，以及開發僑先部教學務系統"
+          "description": "開發與維護一刻鯨選相關API、資料庫相關規劃與維護、開發單集購買Lambda，完善測試案例及文件、學習與應用AWS"
         },
         {
           "name": "雷技資訊科技-PHP後端工程師",
@@ -206,17 +206,17 @@
           "description": "開發與維護Laravel,Magento,Wordpress, Angular相關專案、Mysql 資料庫相關開發與維護"
         },
         {
-          "name": "聯合報行動發展部-服務可靠性(後端)工程師",
-          "time": "2020.03-",
+          "name": "師大進修推廣學院-資訊組專任助理",
+          "time": "2016.07-2017.12",
           "uses": [
-            "PHP",
-            "Laravel",
-            "Python",
-            "Nodejs",
-            "AWS",
-            "MySQL"
+            "php",
+            "javascript",
+            "jquery",
+            "mysql",
+            "laravel",
+            "vue.js"
           ],
-          "description": "開發與維護一刻鯨選相關API、資料庫相關規劃與維護、開發單集購買，完善測試案例及文件、學習與應用AWS"
+          "description": "維護現有專案，負責原住民語言認證、幼幼客語闖通關、檢集表及閱卷系統等，以Laravel 翻新原本Native php 的原住民認證網站，以及開發僑先部教學務系統"
         }
       ]
     },
