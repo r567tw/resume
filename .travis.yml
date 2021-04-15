@@ -1,5 +1,5 @@
 language: node.js
-node.js: 13.2
+node.js: 14.5
 install:
 - npm install
 - npm install --global gulp-cli@2.2.0
