@@ -169,6 +169,21 @@
           ],
           "url": "https://github.com/r567tw/bot",
           "description": "展示Laravel戰力，使用Laravel開發，使用到 transformer, service 等模式協助開發"
+        },
+        {
+          "name": "一刻鯨選",
+          "time": "2020 ~ Now",
+          "uses": [
+            "Laravel",
+            "AWS Lambda",
+            "AWS Step function",
+            "AWS Fargate",
+            "golang",
+            "nodejs",
+            "mysql"
+          ],
+          "url": "https://jinfm.net/",
+          "description": "在聯合報系工作任內,主要負責官網,app,後台所有相關API, 利用aws lambda&nodejs 開發單集購買,與夥伴合作開發訂閱制、關鍵字紅包、贈課等功能, 使用aws step function 開發Excel匯入和趣聽小說匯入,初學Golang開發拆帳報表相關AWS lambda"
         }
       ]
     },
