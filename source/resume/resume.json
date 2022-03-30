@@ -1,5 +1,5 @@
 {
-  "title": "Profile",
+  "title": "客製履歷",
   "github": "https://github.com/r567tw/resume",
   "data": [
     {
@@ -71,11 +71,6 @@
           "star": 5
         },
         {
-          "name": "Vue.js/VueX",
-          "detail": "",
-          "star": 4
-        },
-        {
           "name": "MySQL",
           "detail": "",
           "star": 8
@@ -89,11 +84,6 @@
           "name": "HTML/CSS",
           "detail": "",
           "star": 9
-        },
-        {
-          "name": "Sass/Compass",
-          "detail": "",
-          "star": 6
         },
         {
           "name": "Docker",
@@ -253,7 +243,13 @@
           "title": "LaravelConf",
           "time": "2017、2019、2020",
           "description": "參加LaravelConf，學習一些關於Laravel 的新知識",
-          "link": "https://tech.r567tw.tw/%e5%8f%83%e5%8a%a0laravelconf2017/"
+          "link": "https://jimmycode.tw/"
+        },
+        {
+          "title": "DevOps Day Taipei",
+          "time": "2021",
+          "description": "看到DevOps很多面向，更體會到所謂的DX",
+          "link": "https://jimmycode.tw/posts/%E5%8E%9F%E4%BE%86%E5%8F%AF%E4%BB%A5%E9%80%99%E9%BA%BC%E5%AF%AB15-%E6%96%B0%E5%A2%9E%E4%B8%80%E5%80%8Br567tw%E7%9A%84repo/"
         }
       ]
     }
