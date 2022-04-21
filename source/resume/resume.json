@@ -144,20 +144,6 @@
           "description": "自己看著別人的教學手冊實做wordpress佈景主題，目前自己的部落格皆套用此主題, 使用git-ftp做相關部署"
         },
         {
-          "name": "DevPlayground",
-          "time": "2019 ~ Now",
-          "uses": [
-            "Laravel",
-            "Line bot",
-            "heroku",
-            "aws",
-            "bref",
-            "postgresql"
-          ],
-          "url": "https://github.com/r567tw/bot",
-          "description": "展示Laravel戰力，使用Laravel開發，使用到 transformer, service 等模式協助開發"
-        },
-        {
           "name": "一刻鯨選",
           "time": "2020 ~ Now",
           "uses": [
