@@ -156,7 +156,7 @@
             "mysql"
           ],
           "url": "https://jinfm.net/",
-          "description": "在聯合報系工作任內,主要負責官網,app,後台所有相關API, 利用aws lambda&nodejs 開發單集購買,與夥伴合作開發訂閱制、關鍵字紅包、贈課等功能, 使用aws step function 開發Excel匯入和趣聽小說匯入,使用到Golang開發lambda、研究LightHouse GraphQL,完成許多單元測試"
+          "description": "在聯合報系工作任內,主要負責官網,app,後台相關API, 利用aws lambda&nodejs 開發單集購買,也負責開發官網購買相關功能(串自家金流平台),與夥伴合作開發訂閱制、關鍵字紅包、贈課等功能, 使用aws step function 開發Excel匯入和趣聽小說匯入,使用到Golang開發lambda、研究LightHouse GraphQL,完成許多單元測試"
         }
       ]
     },
