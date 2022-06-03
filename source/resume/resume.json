@@ -132,18 +132,6 @@
           "description": "在師大擔任資訊助理時主負責的案子，使用laravel重構原以native php開發的系統。操作多身分登入、Middleware、客製化驗證、ORM、利用到中大型架構中 的Services和Presenters模式"
         },
         {
-          "name": "JimmyFDesginer",
-          "time": "2016 ~ Now",
-          "uses": [
-            "jquery",
-            "Boostrap",
-            "Wordpress",
-            "Native php"
-          ],
-          "url": "https://r567tw.tw/jimmyfdesigner/",
-          "description": "自己看著別人的教學手冊實做wordpress佈景主題，目前自己的部落格皆套用此主題, 使用git-ftp做相關部署"
-        },
-        {
           "name": "一刻鯨選",
           "time": "2020 ~ Now",
           "uses": [
