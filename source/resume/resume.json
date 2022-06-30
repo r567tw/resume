@@ -22,9 +22,14 @@
             "icon": "fa fa-github"
           },
           {
-            "text": "Facebook",
-            "link": "https://www.facebook.com/FangJRs",
-            "icon": "fa fa-facebook"
+            "text": "Linkedin",
+            "link": "https://www.linkedin.com/in/wei-jun-fang/",
+            "icon": "fa fa-linkedin"
+          },
+          {
+            "text": "CakeResume",
+            "link": "https://www.cakeresume.com/s--YWAcHF_lJYypd8l2QGL-sA--/jimmy-fang",
+            "icon": "fa fa-file"
           },
           {
             "text": "JIMMY'S CODE",
@@ -46,14 +51,14 @@
           "star": 9
         },
         {
-          "name": "Javascript/Jquery",
+          "name": "Javascript",
           "detail": "",
-          "star": 8
+          "star": 6
         },
         {
           "name": "NodeJS",
           "detail": "",
-          "star": 8
+          "star": 7
         },
         {
           "name": "Python",
@@ -66,24 +71,9 @@
           "star": 7
         },
         {
-          "name": "Ruby",
-          "detail": "",
-          "star": 5
-        },
-        {
           "name": "MySQL",
           "detail": "",
           "star": 8
-        },
-        {
-          "name": "Redis",
-          "detail": "",
-          "star": 7
-        },
-        {
-          "name": "HTML/CSS",
-          "detail": "",
-          "star": 9
         },
         {
           "name": "Docker",
@@ -165,6 +155,10 @@
             "AWS",
             "MySQL"
           ],
+          "descriptions":[
+            "第一個",
+            "第二個"
+          ],
           "description": "開發與維護一刻鯨選相關API、資料庫相關規劃與維護、開發AWS Lambda(使用Nodejs,Python,Golang)，完善測試案例及文件"
         },
         {
@@ -179,6 +173,10 @@
             "wordpress",
             "magento"
           ],
+          "descriptions":[
+            "第一個",
+            "第二個"
+          ],
           "description": "開發與維護Laravel,Magento,Wordpress, Angular相關專案、Mysql 資料庫相關開發與維護"
         },
         {
@@ -191,6 +189,10 @@
             "mysql",
             "laravel",
             "vue.js"
+          ],
+          "descriptions":[
+            "第一個",
+            "第二個"
           ],
           "description": "維護現有專案，負責原住民語言認證、幼幼客語闖通關、檢集表及閱卷系統等，以Laravel 翻新原本Native php 的原住民認證網站，以及開發僑先部教學務系統"
         }

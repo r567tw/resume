@@ -12,8 +12,12 @@ div(id="#{resume.data[3].id}")
                             div
                                 |任職期間：#{experience.time} 
                         p(class="card-text")
-                            |#{experience.description}
-                        .text-left
+                            #{short}
+                            ul
+                                    each description,i in experience.descriptions
+                                        li
+                                            |#{description} 
+                        .text-right
                             each use,i in experience.uses
                                     div(class="badge badge-lg badge-default")
                                        |#{use} 
