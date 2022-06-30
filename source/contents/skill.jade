@@ -15,6 +15,4 @@ div(id="#{resume.data[1].id}")
                                         i(class="fa fa-star",aria-hidden="true")
                                     else
                                         i(class="fa fa-star-o",aria-hidden="true")
-        .text-center
-            a(class="btn btn-lg btn-primary btn-more",href="#works",data-id="works")
-                i(class="fa fa fa-arrow-down animated infinite fadeIn",aria-hidden="true")
+        +navigate("experiences")

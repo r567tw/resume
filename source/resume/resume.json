@@ -156,10 +156,12 @@
             "MySQL"
           ],
           "descriptions":[
-            "第一個",
-            "第二個"
-          ],
-          "description": "開發與維護一刻鯨選相關API、資料庫相關規劃與維護、開發AWS Lambda(使用Nodejs,Python,Golang)，完善測試案例及文件"
+            "開發與維護一刻鯨選相關API與功能",
+            "一刻鯨選資料庫相關規劃與維護",
+            "開發AWS Lambda(使用Nodejs,Python,Golang)",
+            "完善一刻鯨選測試案例及文件",
+            "快速架站 Wordpress 維護"
+          ]
         },
         {
           "name": "雷技資訊科技-PHP後端工程師",
@@ -174,10 +176,11 @@
             "magento"
           ],
           "descriptions":[
-            "第一個",
-            "第二個"
-          ],
-          "description": "開發與維護Laravel,Magento,Wordpress, Angular相關專案、Mysql 資料庫相關開發與維護"
+            "Magento V1&2 系統專案開發安裝與測試",
+            "PHP Laravel 專案開發",
+            "MySQL DB 資料庫設計與維運",
+            "Angular、AngularJS、ionic 維護與開發"
+          ]
         },
         {
           "name": "師大進修推廣學院-資訊組專任助理",
@@ -191,41 +194,42 @@
             "vue.js"
           ],
           "descriptions":[
-            "第一個",
-            "第二個"
-          ],
-          "description": "維護現有專案，負責原住民語言認證、幼幼客語闖通關、檢集表及閱卷系統等，以Laravel 翻新原本Native php 的原住民認證網站，以及開發僑先部教學務系統"
+            "維護並使用Laravel 主責重構開發原住民語言認證報名網站、閱卷系統及其他試務輔助工作" ,
+            "維護幼幼客語闖通關報名網站", 
+            "其他資訊化工作"
+          ]
         }
       ]
     },
     {
-      "name": "其他",
-      "url": "#other",
-      "id": "other",
+      "name": "IT鐵人賽",
+      "url": "#ithome",
+      "id": "ithome",
       "contents": [
         {
           "title": "讓PHP再次偉大，使用Laravel",
-          "time": "2019.10.01-2019.11.30",
-          "description": "參加 2020 iT 邦幫忙鐵人賽， 雖然沒有任何得獎與佳作，但至少是一種紀錄！",
           "link": "https://ithelp.ithome.com.tw/users/20106999/ironman/2578"
         },
         {
           "title": "PythonX30",
-          "time": "2018.10.01-2018.10.30",
-          "description": "臨時興起想參加 2019 iT 邦幫忙鐵人賽，不過有些文章為了趕30天而匆忙上架，下次學到要囤文章才對！",
           "link": "https://ithelp.ithome.com.tw/users/20106999/ironman/1805"
-        },
+        }
+      ]
+    },
+    {
+      "name": "活動參與",
+      "url": "#activity",
+      "id": "activity",
+      "contents": [
         {
           "title": "LaravelConf",
           "time": "2017、2019、2020、2021",
-          "description": "參加LaravelConf，學習一些關於Laravel 的新知識",
-          "link": "https://jimmycode.tw/"
+          "description": "參加LaravelConf，學習一些關於Laravel 的新知識"
         },
         {
           "title": "DevOps Day Taipei",
           "time": "2021",
-          "description": "看到DevOps很多面向，更體會到所謂的DX",
-          "link": "https://jimmycode.tw/posts/%E5%8E%9F%E4%BE%86%E5%8F%AF%E4%BB%A5%E9%80%99%E9%BA%BC%E5%AF%AB15-%E6%96%B0%E5%A2%9E%E4%B8%80%E5%80%8Br567tw%E7%9A%84repo/"
+          "description": "看到DevOps很多面向，更體會到所謂的DX"
         }
       ]
     }

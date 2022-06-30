@@ -7,12 +7,8 @@ div(id="#{resume.data[4].id}")
                 .card.col-md-12
                     .card-block
                         h3(class="card-title")|#{content.title}
-                        div(class="badge badge-lg badge-default")
-                            |#{content.time}
-                        p(class="card-text")
-                            |#{content.description}
-                        .text-right
+                        .text-left
                             a(class="btn btn-md btn-info" href="#{content.link}")
                                 i(class="fa fa-link" aria-hidden="true")
                                 |連結
-        +navigate("contact") 
+        +navigate("activity") 
