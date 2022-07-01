@@ -15,9 +15,3 @@ $ gulp
 $ gulp dev // preview by browser
 $ gulp clean/gulp cleantmp // clean some tmp files
 ```
-
-## logs
-- 201712 : Add Travis To Deploy
-- 201906 : Fixed Travis File
-- 202001 : Upgrade from Gulp3 to Gulp4
-- 202102 : Update resume.json and readme.md
