@@ -1,5 +1,5 @@
 {
-  "title": "客製履歷",
+  "title": "履歷",
   "github": "https://github.com/r567tw/resume",
   "data": [
     {
@@ -7,15 +7,21 @@
       "url": "#about",
       "id": "about",
       "content": {
-        "name": "方小君",
+        "name": "Jimmy Fang",
         "email": "r567tw@gmail.com",
         "interesteds": [
-          "旅遊",
+          "電影",
+          "騎腳踏車",
           "閱讀",
           "棒球"
         ],
         "photo": "http://gravatar.com/avatar/40ee6e5cf50763264e00578b83236bdf",
         "socials": [
+          {
+            "text": "Email",
+            "link": "mailto:r567tw@gmail.com",
+            "icon": "fa fa-envelope"
+          },
           {
             "text": "GitHub",
             "link": "https://github.com/r567tw",
@@ -37,7 +43,9 @@
             "icon": "fa fa-rocket"
           }
         ],
-        "description": "是個在台北找工作的台東人。是個喜歡學習、研究，期許自己盡力以認真負責的態度處理事情。希望一天比一天更加進步, 最喜歡得一句話是：Don't prove yourself, improve yourself."
+        "ps": "請盡量使用午休或六點下班聯絡我，不太喜歡在上班時間接非工作相關的電話。請愛用 Linkedin or Email...我覺得 Line 是私人領域...除非你要和我真的當朋友的話XD",
+        "wanted": ["後端工程師", "DevOps", "Data Engineer"],
+        "description": "是個在台北找工作的台東人。喜歡學習、研究。期許自己盡力以忠心負責的態度處理事情。希望一天比一天更加進步"
       }
     },
     {
@@ -94,48 +102,53 @@
       "works": [
         {
           "name": "Gulp 履歷",
-          "time": "2017 ~ Now",
+          "time": "2017~",
           "uses": [
             "Gulp",
-            "Sass",
-            "Pug",
-            "jquery",
-            "boostrap",
-            "animate.css",
-            "wow",
-            "bower",
-            "font-awesome",
-            "travisCI",
+            "TravisCI",
             "GitHub Page"
           ],
-          "url": "https://tech.r567tw.tw/%E5%88%A9%E7%94%A8gulp-%E8%A3%BD%E4%BD%9C%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B1%A5%E6%AD%B7/",
-          "description": "你目前所看到的頁面，為一個長期開發的個人履歷/個人Profile 頁，主要使用Gulp配合Json開發並以Gihub page呈現,類似Gulp-resume, 並且也使用TravisCI 做CICD，此專案原本是gulp3,後來有花了點時間改寫成gulp4"
+          "url": "https://jimmycode.tw/posts/%E5%88%A9%E7%94%A8gulp-%E8%A3%BD%E4%BD%9C%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B1%A5%E6%AD%B7/",
+          "description": "個人 Custom 履歷 Side Project"
         },
         {
           "name": "原住民報名網站(2017)",
           "time": "2017.01.01 ~ 2017.12.31",
           "uses": [
             "Laravel",
-            "Boostrap"
+            "Boostrap",
+            "Mysql"
           ],
           "url": "https://exam.sce.ntnu.edu.tw/abst/",
-          "description": "在師大擔任資訊助理時主負責的案子，使用laravel重構原以native php開發的系統。操作多身分登入、Middleware、客製化驗證、ORM、利用到中大型架構中 的Services和Presenters模式"
+          "description": "在師大擔任資訊助理時主負責的專案，曾以Natice php 維護營運，之後使用laravel重構整個網站"
         },
         {
           "name": "一刻鯨選",
-          "time": "2020 ~ Now",
+          "time": "2020.03 ~ ",
           "uses": [
             "Laravel",
             "AWS Lambda",
             "AWS Step function",
-            "AWS Fargate",
-            "golang",
-            "nodejs",
-            "mysql"
+            "AWS ECS",
+            "Golang",
+            "Nodejs",
+            "Mysql"
           ],
           "url": "https://jinfm.net/",
-          "description": "在聯合報系工作任內,主要負責官網,app,後台相關API, 利用aws lambda&nodejs 開發單集購買,也負責開發官網購買相關功能(串自家金流平台),與夥伴合作開發訂閱制、關鍵字紅包、贈課等功能, 使用aws step function 開發Excel匯入和趣聽小說匯入,使用到Golang開發lambda、研究LightHouse GraphQL,完成許多單元測試"
+          "description": "在聯合報系工作任內主專案負責，最自豪完成許多單元測試及花了時間寫了可交街的文件"
+        },
+        {
+          "name": "Jarvis",
+          "time": "2022.07",
+          "uses": [
+            "Python",
+            "Github Action",
+            "Line Notify"
+          ],
+          "url": "https://jimmycode.tw/posts/jarvis/",
+          "description": "基於Line Notify & Github action 開發的簡易Side Project"
         }
+
       ]
     },
     {
@@ -158,7 +171,7 @@
           "descriptions":[
             "開發與維護一刻鯨選相關API與功能",
             "一刻鯨選資料庫相關規劃與維護",
-            "開發AWS Lambda(使用Nodejs,Python,Golang)",
+            "開發AWS Lambda",
             "完善一刻鯨選測試案例及文件",
             "快速架站 Wordpress 維護"
           ]

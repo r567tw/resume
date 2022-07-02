@@ -9,14 +9,23 @@ div(id="#{resume.data[0].id}")
                 div(class="col-md-2 float-right")
                     img(class="img-fluid rounded-circle",src="#{resume.data[0].content.photo}")
                 h3(class="card-title") #{resume.data[0].content.name} 
-                    sub (暱稱)
                 p(class="card-text") Email: #{resume.data[0].content.email}
                 p(class="card-text")
                     each insterested,i in resume.data[0].content.interesteds
-                        h5(class="badge badge-lg badge-default")
+                        h5(class="badge badge-lg badge-info")
                             |#{insterested}
                 p(class="card-text")
                     |#{resume.data[0].content.description}
+        .card
+            .card-block
+                p(class="card-text")
+                    span(class="badge badge-sm badge-default" style="margin-right:5px")
+                        對哪些工作有興趣：
+                    each want,i in resume.data[0].content.wanted
+                        span(class="badge badge-sm badge-default" style="margin-right:5px")
+                            |#{want}
+                p(class="alert alert-info")
+                    |#{resume.data[0].content.ps}                
         p.text-center
             each social,i in resume.data[0].content.socials
                 a(class="btn btn-success btn-blank",href="#{social.link}")
