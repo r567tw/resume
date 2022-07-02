@@ -4,7 +4,7 @@
 
 [Demo Page](https://r567tw.github.io/resume)
 
-[Article](https://tech.r567tw.tw/%e5%88%a9%e7%94%a8gulp-%e8%a3%bd%e4%bd%9c%e8%87%aa%e5%b7%b1%e7%9a%84%e5%b1%a5%e6%ad%b7/)
+[Article](https://jimmycode.tw/posts/%E5%88%A9%E7%94%A8gulp-%E8%A3%BD%E4%BD%9C%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B1%A5%E6%AD%B7/)
 
 **inspire by [Robby Leonardi's resume](http://www.rleonardi.com/interactive-resume/)**
 ```
