@@ -11,9 +11,6 @@
 $ bower install
 $ npm install or yarn install
 $ gulp
-```
-
-```
 $ gulp dev // preview by browser
 $ gulp clean/gulp cleantmp // clean some tmp files
 ```
