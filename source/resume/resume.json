@@ -157,6 +157,21 @@
       "id": "experiences",
       "experiences": [
         {
+          "name": "威強電工業電腦研發中心-高級工程師",
+          "time": "2022.09-Now",
+          "uses": [
+            "Python",
+            "Flask",
+            "MQTT",
+            "RabbitMQ",
+            "MySQL"
+          ],
+          "descriptions":[
+            "(Python) Web 後端程式開發",
+            "軟體架構設計與實作"
+          ]
+        },
+        {
           "name": "聯合報行動發展部-後端工程師",
           "time": "2020.03-2022.07",
           "uses": [
