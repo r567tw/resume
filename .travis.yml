@@ -1,18 +1,18 @@
-language: node.js
-node.js: 14.5
-install:
-- npm install
-- npm install --global gulp-cli@2.2.0
-- npm install -g bower@1.8.2
-- bower install
-script:
-- gulp
-deploy:
-  skip_cleanup: true
-  email: r567tw@gmail.com
-  name: r567tw
-  provider: pages
-  github_token: "$GITHUB_TOKEN"
-  local_dir: "public"
-  on:
-    branch: master
+# language: node.js
+# node.js: 14.5
+# install:
+# - npm install
+# - npm install --global gulp-cli@2.2.0
+# - npm install -g bower@1.8.2
+# - bower install
+# script:
+# - gulp
+# deploy:
+#   skip_cleanup: true
+#   email: r567tw@gmail.com
+#   name: r567tw
+#   provider: pages
+#   github_token: "$GITHUB_TOKEN"
+#   local_dir: "public"
+#   on:
+#     branch: master
