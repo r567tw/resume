@@ -43,7 +43,11 @@
             "icon": "fa fa-rocket"
           }
         ],
-        "wanted": ["後端工程師", "DevOps", "Data Engineer"],
+        "wanted": [
+          "後端工程師",
+          "DevOps",
+          "Data Engineer"
+        ],
         "description": "喜歡學習、研究。期許自己以忠心負責的態度處理事情。希望一天比一天更加進步"
       }
     },
@@ -54,31 +58,37 @@
       "skills": [
         {
           "name": "PHP",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
           "detail": "",
           "star": 9
         },
         {
           "name": "Python",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
           "detail": "",
           "star": 9
         },
         {
           "name": "Docker",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
           "detail": "",
           "star": 9
         },
         {
           "name": "NodeJS",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
           "detail": "",
           "star": 6
         },
         {
           "name": "Golang",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
           "detail": "",
           "star": 7
         },
         {
           "name": "AWS",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
           "detail": "",
           "star": 8
         }
@@ -153,7 +163,7 @@
             "MySQL",
             "Docker"
           ],
-          "descriptions":[
+          "descriptions": [
             "(Python) Web 後端程式開發",
             "軟體架構設計與實作"
           ]
@@ -167,7 +177,7 @@
             "AWS",
             "MySQL"
           ],
-          "descriptions":[
+          "descriptions": [
             "開發與維護一刻鯨選相關API與功能",
             "一刻鯨選資料庫相關規劃與維護",
             "開發AWS Lambda",
@@ -185,7 +195,7 @@
             "wordpress",
             "magento"
           ],
-          "descriptions":[
+          "descriptions": [
             "Magento V1&2 系統專案開發安裝與測試",
             "PHP Laravel 專案開發",
             "MySQL DB 資料庫設計與維運",
@@ -203,9 +213,9 @@
             "laravel",
             "vue.js"
           ],
-          "descriptions":[
-            "維護並使用Laravel 主責重構開發原住民語言認證報名網站、閱卷系統及其他試務輔助工作" ,
-            "維護幼幼客語闖通關報名網站", 
+          "descriptions": [
+            "維護並使用Laravel 主責重構開發原住民語言認證報名網站、閱卷系統及其他試務輔助工作",
+            "維護幼幼客語闖通關報名網站",
             "其他資訊化工作"
           ]
         }

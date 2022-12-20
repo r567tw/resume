@@ -4,48 +4,48 @@ html {
     background-color: #000000;
 }
 
-.container{
+.container {
     z-index: 1;
     padding-top: 100px;
 }
 
-.card{
+.card {
     background-color: inherit;
     margin-bottom: 20px;
     z-index: 1;
 }
 
 .fa {
-    padding-right:5px;
+    padding-right: 5px;
 }
 
-.btn-blank{
+.btn-blank {
     margin-top: 5px;
-    margin-left:5px;
+    margin-left: 5px;
 }
 
-i{
+i {
     margin-right: 1px;
     padding-right: 1px;
     margin-left: 1px;
 }
 
-.badge-lg{
+.badge-lg {
     margin: 2px;
     font-size: 15px;
 }
 
-.top{
-    z-index:1;
+.top {
+    z-index: 1;
     position: fixed;
     bottom: 10px;
     right: 30px;
     width: 30px;
     height: 40px;
     border-radius: 5px;
-    background-color:#888888;
+    background-color: #888888;
     font-size: 30px;
-    margin: 0,auto;
+    margin: 0, auto;
 }
 
 #particles-js canvas {
@@ -55,14 +55,20 @@ i{
     top: 0;
     left: 0;
 }
-.skill-block{
+
+.skill-block {
     padding-top: 35px;
     padding-bottom: 35px;
 }
 
-.skill-title{
+.skill-title {
     font-size: 15px;
     min-width: 100px;
     display: inline-block;
     text-align: left;
+}
+
+.skill-title>img {
+    width: 50px;
+    height: 50px;
 }
