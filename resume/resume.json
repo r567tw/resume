@@ -111,30 +111,6 @@
           "description": "個人 Custom 履歷 Side Project"
         },
         {
-          "name": "原住民報名網站(2017)",
-          "time": "2017.01.01 ~ 2017.12.31",
-          "uses": [
-            "Laravel",
-            "Boostrap",
-            "Mysql"
-          ],
-          "url": "https://exam.sce.ntnu.edu.tw/abst/",
-          "description": "在師大擔任資訊助理時主負責的專案，曾以Natice php 維護營運，之後使用laravel重構整個網站"
-        },
-        {
-          "name": "一刻鯨選",
-          "time": "2020.03 ~ 2022.08",
-          "uses": [
-            "Laravel",
-            "AWS Lambda",
-            "AWS Step function",
-            "Fargate",
-            "Mysql"
-          ],
-          "url": "https://jinfm.net/",
-          "description": "在聯合報系工作任內主專案負責，最自豪完成許多單元測試及花了時間寫了可交接的文件"
-        },
-        {
           "name": "Jarvis",
           "time": "2022.07",
           "uses": [
@@ -164,7 +140,7 @@
             "Docker"
           ],
           "descriptions": [
-            "(Python) Web 後端程式開發",
+            "(Python) NAS 軟體後端程式開發",
             "軟體架構設計與實作"
           ]
         },
