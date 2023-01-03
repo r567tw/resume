@@ -120,6 +120,16 @@
           ],
           "url": "https://jimmycode.tw/posts/jarvis/",
           "description": "基於 Line Notify & Github action 開發的簡易 Side Project"
+        },
+        {
+          "name": "Focus",
+          "time": "2022-",
+          "uses": [
+            "PHP",
+            "Framework"
+          ],
+          "url": "https://packagist.org/packages/r567tw/focus",
+          "description": "最簡單的 PHP Framework"
         }
       ]
     },
