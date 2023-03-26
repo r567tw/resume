@@ -48,7 +48,8 @@
           "DevOps",
           "Data Engineer"
         ],
-        "description": "喜歡學習、研究。期許自己以忠心負責的態度處理事情。希望一天比一天更加進步"
+        "description": "喜歡學習、研究。期許自己以忠心負責的態度處理事情。希望一天比一天更加進步",
+        "intro": "(暫時temp, 未來這裡會需要在潤飾...): 開發能力與trace code能力 不錯、了解api best practice (RESTFul , GraphQL , 分頁、命名、版本管理、狀態碼等等)"
       }
     },
     {

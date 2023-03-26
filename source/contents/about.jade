@@ -19,6 +19,10 @@ div(id="#{resume.data[0].id}")
         .card
             .card-block
                 p(class="card-text")
+                    |#{resume.data[0].content.intro}
+        .card
+            .card-block
+                p(class="card-text")
                     span(class="badge badge-sm badge-default" style="margin-right:5px")
                         對哪些工作有興趣：
                     each want,i in resume.data[0].content.wanted
