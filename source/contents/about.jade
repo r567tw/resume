@@ -1,35 +1,34 @@
 //- 簡介
-div(id="#{resume.data[0].id}")
+div(id="about")
     .jumbotron.wow.fadeIn
         h1
-            |#{resume.data[0].name}
+            |#{nav["about"]}
         hr(class="my-4")
         .card
             .card-block
                 div(class="col-md-2 float-right")
-                    img(class="img-fluid rounded-circle",src="#{resume.data[0].content.photo}")
-                h3(class="card-title") #{resume.data[0].content.name} 
-                p(class="card-text") Email: #{resume.data[0].content.email}
+                    img(class="img-fluid rounded-circle",src="#{resume.about.photo}")
+                h3(class="card-title") #{resume.about.name} 
                 p(class="card-text")
-                    each insterested,i in resume.data[0].content.interesteds
+                    each insterested,i in resume.about.interesteds
                         h5(class="badge badge-lg badge-info")
                             |#{insterested}
                 p(class="card-text")
-                    |#{resume.data[0].content.description}
+                    |#{resume.about.bio}
         .card
             .card-block
                 p(class="card-text")
-                    |#{resume.data[0].content.intro}
-        .card
-            .card-block
-                p(class="card-text")
-                    span(class="badge badge-sm badge-default" style="margin-right:5px")
-                        對哪些工作有興趣：
-                    each want,i in resume.data[0].content.wanted
-                        span(class="badge badge-sm badge-default" style="margin-right:5px")
-                            |#{want}            
+                    |#{resume.about.intro}
+        //- .card
+        //-     .card-block
+        //-         p(class="card-text")
+        //-             span(class="badge badge-sm badge-default" style="margin-right:5px")
+        //-                 對哪些工作有興趣：
+        //-             each want,i in resume.about.wanted
+        //-                 span(class="badge badge-sm badge-default" style="margin-right:5px")
+        //-                     |#{want}            
         p.text-center
-            each social,i in resume.data[0].content.socials
+            each social,i in resume.about.socials
                 a(class="btn btn-success btn-blank",href="#{social.link}")
                     i(class="#{social.icon}",aria-hidden="true")
                     |#{social.text}

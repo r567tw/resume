@@ -11,8 +11,15 @@ function jade() {
     return src('./source/index.jade')
         .pipe($.data(function () {
             var resume = require('./resume/resume.json');
+            var nav = require("./resume/nav.json")
+
+            // var nav = []
+            // Object.keys(navData).map(key => nav[key] = navData.key)
+            // console.log(nav)
+
             var source = {
                 'resume': resume,
+                'nav': nav
             };
             return source;
         }))

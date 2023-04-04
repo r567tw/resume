@@ -3,6 +3,7 @@ mixin navigate(id)
         a(class="btn btn-lg btn-primary btn-more",href="##{id}",data-id="#{id}")
             i(class="fa fa fa-arrow-down animated infinite fadeIn",aria-hidden="true")
 
-mixin link(url,name)
-  li.nav-item
-    a.nav-link(href="#{url}",data-id="#{url}")|#{name}
+mixin link(key)
+  if nav[key]
+    li.nav-item
+      a.nav-link(href="##{key}",data-id="##{key}")|#{nav[key]}

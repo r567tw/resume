@@ -1,9 +1,9 @@
-div(id="#{resume.data[4].id}")
+div(id="ithome")
     .jumbotron.wow.fadeIn
-        h1 #{resume.data[4].name}
+        h1 |#{nav["ithome"]}
         hr(class="my-4")
         div.row
-            each content,i in resume.data[4].contents
+            each content,i in resume.ithome
                 .card.col-md-12
                     .card-block
                         h3(class="card-title")|#{content.title}

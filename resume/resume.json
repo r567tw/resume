@@ -1,234 +1,196 @@
 {
   "title": "履歷",
   "github": "https://github.com/r567tw/resume",
-  "data": [
-    {
-      "name": "基本資訊",
-      "url": "#about",
-      "id": "about",
-      "content": {
-        "name": "Jimmy Fang",
-        "email": "r567tw@gmail.com",
-        "interesteds": [
-          "電影",
-          "騎腳踏車",
-          "閱讀",
-          "棒球"
-        ],
-        "photo": "http://gravatar.com/avatar/40ee6e5cf50763264e00578b83236bdf",
-        "socials": [
-          {
-            "text": "Email",
-            "link": "mailto:r567tw@gmail.com",
-            "icon": "fa fa-envelope"
-          },
-          {
-            "text": "GitHub",
-            "link": "https://github.com/r567tw",
-            "icon": "fa fa-github"
-          },
-          {
-            "text": "Linkedin",
-            "link": "https://www.linkedin.com/in/wei-jun-fang/",
-            "icon": "fa fa-linkedin"
-          },
-          {
-            "text": "CakeResume",
-            "link": "https://www.cakeresume.com/s--YWAcHF_lJYypd8l2QGL-sA--/jimmy-fang",
-            "icon": "fa fa-file"
-          },
-          {
-            "text": "JIMMY'S CODE",
-            "link": "https://jimmycode.tw",
-            "icon": "fa fa-rocket"
-          }
-        ],
-        "wanted": [
-          "後端工程師",
-          "DevOps",
-          "Data Engineer"
-        ],
-        "description": "喜歡學習、研究。期許自己以忠心負責的態度處理事情。希望一天比一天更加進步",
-        "intro": "我是一名開發能力和 trace code 能力不錯的軟體工程師，並且了解 API 開發的最佳實踐，包括 RESTful、GraphQL、分頁、命名、版本管理和狀態碼等等。我擁有豐富的開發經驗，能夠快速開發高品質的應用程式。我同時也樂於與團隊合作，能夠與不同背景和技能的人員進行良好的溝通和協作，確保項目成功完成。 By ChatGPT..."
+  "about": {
+    "name": "Jimmy Fang",
+    "photo": "http://gravatar.com/avatar/40ee6e5cf50763264e00578b83236bdf",
+    "interesteds": [
+      "電影",
+      "騎腳踏車",
+      "閱讀",
+      "棒球"
+    ],
+    "socials": [
+      {
+        "text": "Email",
+        "link": "mailto:r567tw@gmail.com",
+        "icon": "fa fa-envelope"
+      },
+      {
+        "text": "GitHub",
+        "link": "https://github.com/r567tw",
+        "icon": "fa fa-github"
+      },
+      {
+        "text": "Linkedin",
+        "link": "https://www.linkedin.com/in/wei-jun-fang/",
+        "icon": "fa fa-linkedin"
+      },
+      {
+        "text": "CakeResume",
+        "link": "https://www.cakeresume.com/s--YWAcHF_lJYypd8l2QGL-sA--/jimmy-fang",
+        "icon": "fa fa-file"
+      },
+      {
+        "text": "JIMMY'S CODE",
+        "link": "https://jimmycode.tw",
+        "icon": "fa fa-rocket"
       }
+    ],
+    "bio": "喜歡學習、研究。期許自己以忠心負責的態度處理事情。希望一天比一天更加進步",
+    "intro": "我是一名開發能力和 trace code 能力不錯的軟體工程師，並且了解 API 開發的最佳實踐，包括 RESTful、GraphQL、分頁、命名、版本管理和狀態碼等等。我擁有豐富的開發經驗，能夠快速開發高品質的應用程式。我同時也樂於與團隊合作，能夠與不同背景和技能的人員進行良好的溝通和協作，確保項目成功完成。 By ChatGPT..."
+  },
+  "skills": [
+    {
+      "name": "PHP",
+      "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
+      "detail": "",
+      "star": 9
     },
     {
-      "name": "技能與專長",
-      "url": "#skills",
-      "id": "skills",
-      "skills": [
-        {
-          "name": "PHP",
-          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
-          "detail": "",
-          "star": 9
-        },
-        {
-          "name": "Python",
-          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-          "detail": "",
-          "star": 9
-        },
-        {
-          "name": "Docker",
-          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-          "detail": "",
-          "star": 9
-        },
-        {
-          "name": "NodeJS",
-          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
-          "detail": "",
-          "star": 6
-        },
-        {
-          "name": "Golang",
-          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
-          "detail": "",
-          "star": 7
-        },
-        {
-          "name": "AWS",
-          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-          "detail": "",
-          "star": 8
-        }
+      "name": "Python",
+      "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      "detail": "",
+      "star": 9
+    },
+    {
+      "name": "Docker",
+      "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      "detail": "",
+      "star": 9
+    },
+    {
+      "name": "NodeJS",
+      "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+      "detail": "",
+      "star": 6
+    },
+    {
+      "name": "Golang",
+      "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
+      "detail": "",
+      "star": 7
+    },
+    {
+      "name": "AWS",
+      "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+      "detail": "",
+      "star": 8
+    }
+  ],
+  "works": [
+    {
+      "name": "Gulp 履歷",
+      "time": "2017~",
+      "uses": [
+        "Gulp",
+        "GitHub Page",
+        "GitHub Action"
+      ],
+      "url": "https://jimmycode.tw/%E5%88%A9%E7%94%A8gulp-%E8%A3%BD%E4%BD%9C%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B1%A5%E6%AD%B7/",
+      "description": "個人 Custom 履歷 Side Project"
+    },
+    {
+      "name": "Jarvis",
+      "time": "2022.07",
+      "uses": [
+        "Python",
+        "Github Action",
+        "Line Notify"
+      ],
+      "url": "https://jimmycode.tw/posts/jarvis/",
+      "description": "基於 Line Notify & Github action 開發的簡易 Side Project"
+    }
+  ],
+  "experiences": [
+    {
+      "name": "威強電工業電腦研發中心-高級工程師",
+      "time": "2022.09-2022.12",
+      "uses": [
+        "Python",
+        "Flask",
+        "MQTT",
+        "RabbitMQ",
+        "MySQL",
+        "Docker"
+      ],
+      "descriptions": [
+        "(Python) NAS 軟體後端程式開發",
+        "軟體架構設計與實作"
       ]
     },
     {
-      "name": "作品",
-      "url": "#works",
-      "id": "works",
-      "works": [
-        {
-          "name": "Gulp 履歷",
-          "time": "2017~",
-          "uses": [
-            "Gulp",
-            "GitHub Page",
-            "GitHub Action"
-          ],
-          "url": "https://jimmycode.tw/%E5%88%A9%E7%94%A8gulp-%E8%A3%BD%E4%BD%9C%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B1%A5%E6%AD%B7/",
-          "description": "個人 Custom 履歷 Side Project"
-        },
-        {
-          "name": "Jarvis",
-          "time": "2022.07",
-          "uses": [
-            "Python",
-            "Github Action",
-            "Line Notify"
-          ],
-          "url": "https://jimmycode.tw/posts/jarvis/",
-          "description": "基於 Line Notify & Github action 開發的簡易 Side Project"
-        }
+      "name": "聯合報行動發展部-後端工程師",
+      "time": "2020.03-2022.07",
+      "uses": [
+        "PHP",
+        "Laravel",
+        "AWS",
+        "MySQL"
+      ],
+      "descriptions": [
+        "開發與維護一刻鯨選相關API與功能",
+        "一刻鯨選資料庫相關規劃與維護",
+        "開發AWS Lambda",
+        "完善一刻鯨選測試案例及文件",
+        "快速架站 Wordpress 維護"
       ]
     },
     {
-      "name": "經歷",
-      "url": "#experiences",
-      "id": "experiences",
-      "experiences": [
-        {
-          "name": "威強電工業電腦研發中心-高級工程師",
-          "time": "2022.09-2022.12",
-          "uses": [
-            "Python",
-            "Flask",
-            "MQTT",
-            "RabbitMQ",
-            "MySQL",
-            "Docker"
-          ],
-          "descriptions": [
-            "(Python) NAS 軟體後端程式開發",
-            "軟體架構設計與實作"
-          ]
-        },
-        {
-          "name": "聯合報行動發展部-後端工程師",
-          "time": "2020.03-2022.07",
-          "uses": [
-            "PHP",
-            "Laravel",
-            "AWS",
-            "MySQL"
-          ],
-          "descriptions": [
-            "開發與維護一刻鯨選相關API與功能",
-            "一刻鯨選資料庫相關規劃與維護",
-            "開發AWS Lambda",
-            "完善一刻鯨選測試案例及文件",
-            "快速架站 Wordpress 維護"
-          ]
-        },
-        {
-          "name": "雷技資訊科技-PHP後端工程師",
-          "time": "2018.03-2019.12",
-          "uses": [
-            "angular",
-            "mysql",
-            "laravel",
-            "wordpress",
-            "magento"
-          ],
-          "descriptions": [
-            "Magento V1&2 系統專案開發安裝與測試",
-            "PHP Laravel 專案開發",
-            "MySQL DB 資料庫設計與維運",
-            "Angular、AngularJS、ionic 維護與開發"
-          ]
-        },
-        {
-          "name": "師大進修推廣學院-資訊組專任助理",
-          "time": "2016.07-2017.12",
-          "uses": [
-            "php",
-            "javascript",
-            "jquery",
-            "mysql",
-            "laravel",
-            "vue.js"
-          ],
-          "descriptions": [
-            "維護並使用Laravel 主責重構開發原住民語言認證報名網站、閱卷系統及其他試務輔助工作",
-            "維護幼幼客語闖通關報名網站",
-            "其他資訊化工作"
-          ]
-        }
+      "name": "雷技資訊科技-PHP後端工程師",
+      "time": "2018.03-2019.12",
+      "uses": [
+        "angular",
+        "mysql",
+        "laravel",
+        "wordpress",
+        "magento"
+      ],
+      "descriptions": [
+        "Magento V1&2 系統專案開發安裝與測試",
+        "PHP Laravel 專案開發",
+        "MySQL DB 資料庫設計與維運",
+        "Angular、AngularJS、ionic 維護與開發"
       ]
     },
     {
-      "name": "IT鐵人賽",
-      "url": "#ithome",
-      "id": "ithome",
-      "contents": [
-        {
-          "title": "讓PHP再次偉大，使用Laravel",
-          "link": "https://ithelp.ithome.com.tw/users/20106999/ironman/2578"
-        },
-        {
-          "title": "PythonX30",
-          "link": "https://ithelp.ithome.com.tw/users/20106999/ironman/1805"
-        }
+      "name": "師大進修推廣學院-資訊組專任助理",
+      "time": "2016.07-2017.12",
+      "uses": [
+        "php",
+        "javascript",
+        "jquery",
+        "mysql",
+        "laravel",
+        "vue.js"
+      ],
+      "descriptions": [
+        "維護並使用Laravel 主責重構開發原住民語言認證報名網站、閱卷系統及其他試務輔助工作",
+        "維護幼幼客語闖通關報名網站",
+        "其他資訊化工作"
       ]
+    }
+  ],
+  "ithome": [
+    {
+      "title": "讓PHP再次偉大，使用Laravel",
+      "link": "https://ithelp.ithome.com.tw/users/20106999/ironman/2578"
     },
     {
-      "name": "活動參與",
-      "url": "#activity",
-      "id": "activity",
-      "contents": [
-        {
-          "title": "LaravelConf",
-          "time": "2017、2019、2020、2021、2022",
-          "description": "參加LaravelConf，學習一些關於Laravel 的新知識"
-        },
-        {
-          "title": "DevOps Day Taipei",
-          "time": "2021",
-          "description": "看到DevOps很多面向，認識所謂的DX"
-        }
-      ]
+      "title": "PythonX30",
+      "link": "https://ithelp.ithome.com.tw/users/20106999/ironman/1805"
+    }
+  ],
+  "activity": [
+    {
+      "title": "LaravelConf",
+      "time": "2017、2019、2020、2021、2022",
+      "description": "參加LaravelConf，學習一些關於Laravel 的新知識"
+    },
+    {
+      "title": "DevOps Day Taipei",
+      "time": "2021",
+      "description": "看到DevOps很多面向，認識所謂的DX"
     }
   ]
 }

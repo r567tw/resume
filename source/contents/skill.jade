@@ -1,11 +1,11 @@
 //- 技能
-div(id="#{resume.data[1].id}")
+div(id="skills")
     .jumbotron.wow.fadeIn
         h1
-            |#{resume.data[1].name}
+            |#{nav["skills"]}
         hr(class="my-12")
         div(class="row skill-block text-center")
-            each skill,i in resume.data[1].skills
+            each skill,i in resume.skills
                         div(class="col-md-6")
                             span(class="skill-title")
                                 img(src="#{skill.icon}",name="#{skill.name}")

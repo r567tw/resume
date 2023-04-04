@@ -1,10 +1,10 @@
-div(id="#{resume.data[3].id}")
+div(id="experiences")
     .jumbotron.wow.fadeIn
         h1
-            |#{resume.data[3].name}
+            |#{nav["experiences"]}
         hr(class="my-4")
         div
-            each experience,i in resume.data[3].experiences
+            each experience,i in resume.experiences
                 .card
                     .card-block
                         h3(class="card-title")|#{experience.name}

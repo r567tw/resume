@@ -5,8 +5,8 @@ nav.navbar.fixed-top.navbar-toggleable-md.navbar-inverse.bg-inverse
     span.navbar-toggler-icon
   #navbarSupportedContent.collapse.navbar-collapse
     ul.navbar-nav.mr-auto#navbar-example
-      each item,i in resume.data
-        +link(item.url,item.name)
+      each item,i in resume
+        +link(i)
     ul.navbar-nav.text-right.hidden-md-down
       li.nav-item
         a.nav-link(href="#{resume.github}")
