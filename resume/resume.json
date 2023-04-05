@@ -36,6 +36,11 @@
             "text": "JIMMY'S CODE",
             "link": "https://jimmycode.tw",
             "icon": "fa fa-rocket"
+          },
+          {
+            "text": "JIMMY'S Note",
+            "link": "https://jimmynotes.netlify.app",
+            "icon": "fa fa-sticky-note-o"
           }
         ],
         "wanted": [
