@@ -22,11 +22,6 @@
         "icon": "fa fa-github"
       },
       {
-        "text": "Linkedin",
-        "link": "https://www.linkedin.com/in/wei-jun-fang/",
-        "icon": "fa fa-linkedin"
-      },
-      {
         "text": "CakeResume",
         "link": "https://www.cakeresume.com/s--YWAcHF_lJYypd8l2QGL-sA--/jimmy-fang",
         "icon": "fa fa-file"
@@ -35,6 +30,11 @@
         "text": "JIMMY'S CODE",
         "link": "https://jimmycode.tw",
         "icon": "fa fa-rocket"
+      },
+      {
+        "text": "JIMMY'S Note",
+        "link": "https://jimmynotes.netlify.app",
+        "icon": "fa fa-sticky-note-o"
       }
     ],
     "bio": "喜歡學習、研究。期許自己以忠心負責的態度處理事情。希望一天比一天更加進步",
