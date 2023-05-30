@@ -130,6 +130,18 @@
       "id": "experiences",
       "experiences": [
         {
+          "name": "串門子雲盟事業股份有限公司-軟體工程師",
+          "time": "2023.03~",
+          "uses": [
+            "Golang",
+            "VueJS",
+            "MySQL"
+          ],
+          "descriptions": [
+            "使用Golang & VueJS 維護公司相關專案"
+          ]
+        },
+        {
           "name": "聯合報行動發展部-後端工程師",
           "time": "2020.03-2022.07",
           "uses": [
