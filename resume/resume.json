@@ -79,13 +79,25 @@
           "name": "NodeJS",
           "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
           "detail": "",
-          "star": 6
+          "star": 7
         },
         {
           "name": "Golang",
           "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
           "detail": "",
-          "star": 7
+          "star": 8
+        },
+        {
+          "name": "Java",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          "detail": "",
+          "star": 4
+        },
+        {
+          "name": "MySQL",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
+          "detail": "",
+          "star": 9
         },
         {
           "name": "AWS",
