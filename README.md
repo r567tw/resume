@@ -1,6 +1,6 @@
 # resume
 
-[![Build Status](https://app.travis-ci.com/r567tw/resume.svg?branch=master)](https://app.travis-ci.com/r567tw/resume)
+[![Build](https://github.com/r567tw/resume/actions/workflows/main.yml/badge.svg)](https://github.com/r567tw/resume/actions/workflows/main.yml)
 
 [Demo Page](https://r567tw.github.io/resume)
 

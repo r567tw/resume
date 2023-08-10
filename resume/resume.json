@@ -10,8 +10,6 @@
         "name": "Jimmy Fang",
         "email": "r567tw@gmail.com",
         "interesteds": [
-          "電影",
-          "騎腳踏車",
           "閱讀",
           "棒球"
         ],
@@ -79,13 +77,13 @@
           "name": "NodeJS",
           "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
           "detail": "",
-          "star": 7
+          "star": 8
         },
         {
           "name": "Golang",
           "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
           "detail": "",
-          "star": 8
+          "star": 6
         },
         {
           "name": "Java",
@@ -103,7 +101,7 @@
           "name": "AWS",
           "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
           "detail": "",
-          "star": 8
+          "star": 6
         }
       ]
     },
@@ -141,6 +139,17 @@
       "url": "#experiences",
       "id": "experiences",
       "experiences": [
+        {
+          "name": "艾瑞特資訊科技-PHP工程師",
+          "time": "2023.07~",
+          "uses": [
+            "Wordpress"
+          ],
+          "descriptions": [
+            "開發串接 TapPay 及 三竹 相關的 Woocommerce & Wordpress Plugin",
+            "其他上級交辦事項"
+          ]
+        },
         {
           "name": "聯合報行動發展部-後端工程師",
           "time": "2020.03-2022.07",
