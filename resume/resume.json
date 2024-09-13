@@ -32,14 +32,15 @@
           },
           {
             "text": "JIMMY'S CODE",
-            "link": "https://r567tw.github.io",
+            "link": "https://r567tw.cc",
             "icon": "fa fa-rocket"
           }
         ],
         "wanted": [
           "後端工程師",
           "DevOps",
-          "Data Engineer"
+          "SRE",
+          "MIS"
         ],
         "description": "喜歡學習、研究。期許自己以忠心負責的態度處理事情。希望一天比一天更加進步",
         "intro": "我是一名開發能力和 trace code 能力不錯的軟體工程師，並且了解 API 開發的最佳實踐，包括 RESTful、GraphQL、分頁、命名、版本管理和狀態碼等等。我擁有豐富的開發經驗，能夠快速開發高品質的應用程式。我同時也樂於與團隊合作，能夠與不同背景和技能的人員進行良好的溝通和協作，確保項目成功完成。"
@@ -54,19 +55,19 @@
           "name": "PHP",
           "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
           "detail": "",
-          "star": 9
+          "star": 10
         },
         {
           "name": "Python",
           "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
           "detail": "",
-          "star": 9
+          "star": 10
         },
         {
           "name": "Docker",
           "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
           "detail": "",
-          "star": 9
+          "star": 10
         },
         {
           "name": "NodeJS",
@@ -84,19 +85,25 @@
           "name": "Java",
           "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
           "detail": "",
-          "star": 4
+          "star": 5
         },
         {
           "name": "MySQL",
           "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
           "detail": "",
-          "star": 9
+          "star": 10
         },
         {
           "name": "AWS",
           "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
           "detail": "",
           "star": 5
+        },
+        {
+          "name": "Cloudflare",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original-wordmark.svg",
+          "detail": "",
+          "star": 7
         }
       ]
     },
@@ -113,19 +120,8 @@
             "GitHub Page",
             "GitHub Action"
           ],
-          "url": "https://r567tw.github.io/%E5%88%A9%E7%94%A8gulp-%E8%A3%BD%E4%BD%9C%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B1%A5%E6%AD%B7/",
+          "url": "https://r567tw.cc/posts/gulp-resume/",
           "description": "個人 Custom 履歷 Side Project"
-        },
-        {
-          "name": "Jarvis",
-          "time": "2022.07",
-          "uses": [
-            "Python",
-            "Github Action",
-            "Line Notify"
-          ],
-          "url": "https://r567tw.github.io/posts/jarvis/",
-          "description": "基於 Line Notify & Github action 開發的簡易 Side Project"
         }
       ]
     },
@@ -138,10 +134,11 @@
           "name": "艾瑞特資訊科技-PHP 工程師",
           "time": "2023.07~",
           "uses": [
-            "Wordpress"
+            "WordPress","Laravel"
           ],
           "descriptions": [
-            "開發串接 TapPay 及 三竹 相關的 Woocommerce & Wordpress Plugin",
+            "開發串接 TapPay 及 三竹 相關的 WooCommerce & WordPress Plugin",
+            "串接 Google Drive API 與 Line Bot 開發 Irent Keeper",
             "其他上級交辦事項"
           ]
         },
@@ -159,7 +156,7 @@
             "一刻鯨選資料庫相關規劃與維護",
             "開發 AWS Lambda",
             "完善一刻鯨選測試案例及文件",
-            "快速架站 Wordpress 維護"
+            "快速架站 WordPress 維護"
           ]
         },
         {
@@ -167,9 +164,9 @@
           "time": "2018.03-2019.12",
           "uses": [
             "angular",
-            "mysql",
-            "laravel",
-            "wordpress",
+            "MySQL",
+            "Laravel",
+            "WordPress",
             "magento"
           ],
           "descriptions": [
@@ -186,7 +183,7 @@
             "php",
             "javascript",
             "jquery",
-            "mysql",
+            "MySQL",
             "laravel",
             "vue.js"
           ],
