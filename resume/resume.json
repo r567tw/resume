@@ -9,10 +9,7 @@
       "content": {
         "name": "Jimmy Fang",
         "email": "r567tw@gmail.com",
-        "interesteds": [
-          "閱讀",
-          "棒球"
-        ],
+        "interesteds": ["閱讀", "棒球"],
         "photo": "http://gravatar.com/avatar/40ee6e5cf50763264e00578b83236bdf",
         "socials": [
           {
@@ -36,12 +33,7 @@
             "icon": "fa fa-rocket"
           }
         ],
-        "wanted": [
-          "後端工程師",
-          "DevOps",
-          "SRE",
-          "MIS"
-        ],
+        "wanted": ["後端工程師", "DevOps", "SRE", "MIS"],
         "description": "喜歡學習、研究。期許自己以忠心負責的態度處理事情。希望一天比一天更加進步",
         "intro": "我是一名開發能力和 trace code 能力不錯的軟體工程師，並且了解 API 開發的最佳實踐，包括 RESTful、GraphQL、分頁、命名、版本管理和狀態碼等等。我擁有豐富的開發經驗，能夠快速開發高品質的應用程式。我同時也樂於與團隊合作，能夠與不同背景和技能的人員進行良好的溝通和協作，確保項目成功完成。"
       }
@@ -64,10 +56,22 @@
           "star": 10
         },
         {
+          "name": "Linux",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
+          "detail": "",
+          "star": 8
+        },
+        {
           "name": "Docker",
           "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
           "detail": "",
           "star": 10
+        },
+        {
+          "name": "Redis",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
+          "detail": "",
+          "star": 6
         },
         {
           "name": "NodeJS",
@@ -115,11 +119,7 @@
         {
           "name": "Gulp 履歷",
           "time": "2017~",
-          "uses": [
-            "Gulp",
-            "GitHub Page",
-            "GitHub Action"
-          ],
+          "uses": ["Gulp", "GitHub Page", "GitHub Action"],
           "url": "https://r567tw.cc/posts/gulp-resume/",
           "description": "個人 Custom 履歷 Side Project"
         }
@@ -133,9 +133,7 @@
         {
           "name": "艾瑞特資訊科技-PHP 工程師",
           "time": "2023.07~",
-          "uses": [
-            "WordPress","Laravel"
-          ],
+          "uses": ["WordPress", "Laravel"],
           "descriptions": [
             "開發串接 TapPay 及 三竹 相關的 WooCommerce & WordPress Plugin",
             "串接 Google Drive API 與 Line Bot 開發 Irent Keeper",
@@ -145,12 +143,7 @@
         {
           "name": "聯合報行動發展部-後端工程師",
           "time": "2020.03-2022.07",
-          "uses": [
-            "PHP",
-            "Laravel",
-            "AWS",
-            "MySQL"
-          ],
+          "uses": ["PHP", "Laravel", "AWS", "MySQL"],
           "descriptions": [
             "開發與維護一刻鯨選相關 API 與功能",
             "一刻鯨選資料庫相關規劃與維護",
@@ -162,13 +155,7 @@
         {
           "name": "雷技資訊科技-PHP 後端工程師",
           "time": "2018.03-2019.12",
-          "uses": [
-            "angular",
-            "MySQL",
-            "Laravel",
-            "WordPress",
-            "magento"
-          ],
+          "uses": ["angular", "MySQL", "Laravel", "WordPress", "magento"],
           "descriptions": [
             "Magento V1&2 系統專案開發安裝與測試",
             "PHP Laravel 專案開發",
@@ -179,14 +166,7 @@
         {
           "name": "師大進修推廣學院-資訊組專任助理",
           "time": "2016.07-2017.12",
-          "uses": [
-            "php",
-            "javascript",
-            "jquery",
-            "MySQL",
-            "laravel",
-            "vue.js"
-          ],
+          "uses": ["php", "javascript", "jquery", "MySQL", "laravel", "vue.js"],
           "descriptions": [
             "維護並使用 Laravel 主責重構開發原住民語言認證報名網站、閱卷系統及其他試務輔助工作",
             "維護幼幼客語闖通關報名網站",
