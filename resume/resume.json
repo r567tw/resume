@@ -102,12 +102,6 @@
           "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
           "detail": "",
           "star": 5
-        },
-        {
-          "name": "Cloudflare",
-          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original-wordmark.svg",
-          "detail": "",
-          "star": 7
         }
       ]
     },
@@ -122,6 +116,13 @@
           "uses": ["Gulp", "GitHub Page", "GitHub Action"],
           "url": "https://r567tw.cc/posts/gulp-resume/",
           "description": "個人 Custom 履歷 Side Project"
+        },
+        {
+          "name": "Jimmy 個人專案",
+          "time": "2025~",
+          "uses": ["PostgreSQL", "Redis", "Laravel", "GitHub Action"],
+          "url": "https://project.r567tw.cc",
+          "description": "個人 Custom 履歷 Side Project"
         }
       ]
     },
@@ -132,7 +133,7 @@
       "experiences": [
         {
           "name": "艾瑞特資訊科技-PHP 工程師",
-          "time": "2023.07~",
+          "time": "2023.07~2025.03",
           "uses": ["WordPress", "Laravel"],
           "descriptions": [
             "開發串接 TapPay 及 三竹 相關的 WooCommerce & WordPress Plugin",
@@ -141,15 +142,25 @@
           ]
         },
         {
+          "name": "串門子雲盟-Golang 工程師",
+          "time": "2023.03~2023.06",
+          "uses": ["Golang"],
+          "descriptions": ["開發 Golang API"]
+        },
+        {
+          "name": "威強電-工程師",
+          "time": "2022.09~2022.12",
+          "uses": ["MQTT", "Python", "Flask"],
+          "descriptions": ["MQTT 與 NAS 相關應用開發"]
+        },
+        {
           "name": "聯合報行動發展部-後端工程師",
           "time": "2020.03-2022.07",
           "uses": ["PHP", "Laravel", "AWS", "MySQL"],
           "descriptions": [
             "開發與維護一刻鯨選相關 API 與功能",
             "一刻鯨選資料庫相關規劃與維護",
-            "開發 AWS Lambda",
-            "完善一刻鯨選測試案例及文件",
-            "快速架站 WordPress 維護"
+            "完善一刻鯨選測試案例及文件"
           ]
         },
         {
