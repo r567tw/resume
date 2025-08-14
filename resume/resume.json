@@ -108,7 +108,7 @@
         {
           "name": "Gulp 履歷",
           "time": "2017~",
-          "uses": ["Gulp", "GitHub Page", "GitHub Action"],
+          "uses": ["Gulp", "Jade", "GitHub Page", "GitHub Action"],
           "url": "https://r567tw.cc/posts/gulp-resume/",
           "description": "個人 Custom 履歷 Side Project"
         },
