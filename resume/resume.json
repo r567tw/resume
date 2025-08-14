@@ -121,8 +121,22 @@
           "name": "Jimmy 個人專案",
           "time": "2025~",
           "uses": ["PostgreSQL", "Redis", "Laravel", "GitHub Action"],
-          "url": "https://project.r567tw.cc",
-          "description": "個人 Custom 履歷 Side Project"
+          "url": "https://project.r567tw.cc/present",
+          "description": "供面試的火力展示以及也順便解決一些自己想要解決的問題、練習 CI/CD 和 PHPunit"
+        },
+        {
+          "name": "Jarvis",
+          "time": "2021~",
+          "uses": ["Cloudflare", "Javascript"],
+          "url": "https://github.com/r567tw/jarvis",
+          "description": "Line Notify 部分程式碼已經隨著服務終止而廢棄，但有搭配 Cloudflare 寫了一個了解目前空氣品質的 Worker"
+        },
+        {
+          "name": "Countdown (deprecated)",
+          "time": "2018~",
+          "uses": ["Google Chrome Extension", "Javascript"],
+          "url": "https://github.com/r567tw/countdown",
+          "description": "當時因為倒數計時器蠻紅的寫了一個給 Chrome Extension，隨著 Chrome Extension 規格改變不確定是否還可以用...也沒錢 Deploy 到 Chrome Store, 就這樣了吧"
         }
       ]
     },
