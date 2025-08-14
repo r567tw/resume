@@ -23,19 +23,14 @@
             "icon": "fa fa-github"
           },
           {
-            "text": "CakeResume",
-            "link": "https://www.cakeresume.com/s--YWAcHF_lJYypd8l2QGL-sA--/jimmy-fang",
-            "icon": "fa fa-file"
-          },
-          {
-            "text": "JIMMY'S CODE",
+            "text": "Blog",
             "link": "https://r567tw.cc",
             "icon": "fa fa-rocket"
           }
         ],
-        "wanted": ["後端工程師", "DevOps", "SRE", "MIS"],
-        "description": "喜歡學習、研究。期許自己以忠心負責的態度處理事情。希望一天比一天更加進步",
-        "intro": "我是一名開發能力和 trace code 能力不錯的軟體工程師，並且了解 API 開發的最佳實踐，包括 RESTful、GraphQL、分頁、命名、版本管理和狀態碼等等。我擁有豐富的開發經驗，能夠快速開發高品質的應用程式。我同時也樂於與團隊合作，能夠與不同背景和技能的人員進行良好的溝通和協作，確保項目成功完成。"
+        "wanted": ["後端工程師", "DevOps"],
+        "description": "希望每天進步一點，持續學習與探索",
+        "intro": "您好，我是一名現居高雄的後端工程師，擁有八年以上開發經驗，專精 PHP（Laravel）、Golang、Python ，熱衷於系統重構、API 開發與流程自動化，致力打造穩定高效的後端系統；對 DevOps 與資安充滿熱忱，樂於在團隊中分享知識，與夥伴共同成長。"
       }
     },
     {
