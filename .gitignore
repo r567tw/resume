@@ -6,4 +6,4 @@ public
 package-lock.json
 yarn.lock
 yarn-error.log
-
+.resume_to_pdf
