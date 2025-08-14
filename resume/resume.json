@@ -150,31 +150,32 @@
           "time": "2023.07~2025.03",
           "uses": ["WordPress", "Laravel"],
           "descriptions": [
-            "開發串接 TapPay 及 三竹 相關的 WooCommerce & WordPress Plugin",
-            "串接 Google Drive API 與 Line Bot 開發 Irent Keeper",
-            "其他上級交辦事項"
+            "開發 WooCommerce & WordPress Plugin 串接 TapPay 與三竹支付服務，提升付款效率、降低人工操作，並處理交易安全與錯誤防護",
+            "維護 WordPress 網站及 Laravel 專案，持續改善效能、增加功能並優化管理介面",
+            "串接 Lark API 進行系統整合與自動化流程開發"
           ]
         },
         {
           "name": "串門子雲盟-Golang 工程師",
           "time": "2023.03~2023.06",
           "uses": ["Golang"],
-          "descriptions": ["開發 Golang API"]
+          "descriptions": ["使用 Golang 開發 API，參與後端功能建置與維護"]
         },
         {
           "name": "威強電-工程師",
           "time": "2022.09~2022.12",
           "uses": ["MQTT", "Python", "Flask"],
-          "descriptions": ["MQTT 與 NAS 相關應用開發"]
+          "descriptions": ["使用 Python 與 Flask 進行 MQTT 與 NAS 相關應用開發"]
         },
         {
           "name": "聯合報行動發展部-後端工程師",
           "time": "2020.03-2022.07",
           "uses": ["PHP", "Laravel", "AWS", "MySQL"],
           "descriptions": [
-            "開發與維護一刻鯨選相關 API 與功能",
-            "一刻鯨選資料庫相關規劃與維護",
-            "完善一刻鯨選測試案例及文件"
+            "在一刻鯨選產品中負責後端 API 開發與維護，開發多項新功能，並建立 API 文件與導入 PHPunit 單元測試",
+            "學習並實際應用 Golang 於後端開發，深化跨語言技術能力",
+            "使用 AWS 架構相關服務，參與產品雲端部署與維護",
+            "參與資料庫規劃與維護，確保系統穩定性與效能"
           ]
         },
         {
@@ -182,10 +183,9 @@
           "time": "2018.03-2019.12",
           "uses": ["angular", "MySQL", "Laravel", "WordPress", "magento"],
           "descriptions": [
-            "Magento V1&2 系統專案開發安裝與測試",
-            "PHP Laravel 專案開發",
-            "MySQL DB 資料庫設計與維運",
-            "Angular、AngularJS、ionic 維護與開發"
+            "參與 Magento V1 & V2 專案開發、安裝與測試，熟悉電子商務系統架構與功能整合",
+            "使用 Laravel 開發後端功能，並設計與維護 MySQL 資料庫",
+            "維護與開發 Angular、AngularJS、Ionic 前端功能，深化前後端整合能力"
           ]
         },
         {
@@ -193,9 +193,9 @@
           "time": "2016.07-2017.12",
           "uses": ["php", "javascript", "jquery", "MySQL", "laravel", "vue.js"],
           "descriptions": [
-            "維護並使用 Laravel 主責重構開發原住民語言認證報名網站、閱卷系統及其他試務輔助工作",
-            "維護幼幼客語闖通關報名網站",
-            "其他資訊化工作"
+            "使用 Laravel 重構原住民語認證報名網站，將原本需工程師修改的 PHP 系統轉為可透過後台操作，提升業務單位管理效率與系統可維護性",
+            "維護幼幼客語闖通關報名網站，負責前後端功能修正與資料管理",
+            "自行使用 Python 優化日常工作流程，如身份證驗證與生成、資料轉移與整理，提升效率並降低人為錯誤"
           ]
         }
       ]
