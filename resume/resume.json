@@ -141,26 +141,22 @@
       "id": "experiences",
       "experiences": [
         {
+          "name": "亮易科技-全端工程師",
+          "time": "2025.09~",
+          "uses": ["WordPress", "Drupal","Linux","SharePoint","SPFx","React"],
+          "descriptions": [
+            "維護與開發 WordPress / Drupal 相關客製需求",
+            "維護與開發 Sharepoint / PowerAutomate 相關需求 (使用 React 開發 SPFx 等)"
+          ]
+        },
+        {
           "name": "艾瑞特資訊科技-PHP 工程師",
           "time": "2023.07~2025.03",
           "uses": ["WordPress", "Laravel"],
           "descriptions": [
             "開發 WooCommerce & WordPress Plugin 串接 TapPay 與三竹支付服務，提升付款效率、降低人工操作，並處理交易安全與錯誤防護",
-            "維護 WordPress 網站及 Laravel 專案，持續改善效能、增加功能並優化管理介面",
-            "串接 Lark API 進行系統整合與自動化流程開發"
+            "維護 WordPress 網站及 Laravel 專案，持續改善效能、增加功能並優化管理介面"
           ]
-        },
-        {
-          "name": "串門子雲盟-Golang 工程師",
-          "time": "2023.03~2023.06",
-          "uses": ["Golang"],
-          "descriptions": ["使用 Golang 開發 API，參與後端功能建置與維護"]
-        },
-        {
-          "name": "威強電-工程師",
-          "time": "2022.09~2022.12",
-          "uses": ["MQTT", "Python", "Flask"],
-          "descriptions": ["使用 Python 與 Flask 進行 MQTT 與 NAS 相關應用開發"]
         },
         {
           "name": "聯合報行動發展部-後端工程師",
